@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mcmaster-maroon: #7A003C;
+  --color-mcmaster-gold: #FDBF57;
+  --color-mcmaster-grey: #5E6A71;
+}

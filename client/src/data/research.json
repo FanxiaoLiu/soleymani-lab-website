@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "title": "Biosensors",
+    "desc": "Developing electrochemical sensors for rapid diagnostics."
+  },
+  {
+    "id": 2,
+    "title": "Materials",
+    "desc": "Creating functional surfaces using laser-induced graphene."
+  }
+]
