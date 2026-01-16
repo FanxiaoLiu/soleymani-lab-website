@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import './index.css';
 
 // Import Pages
@@ -15,7 +16,10 @@ function App() {
     <Router>
       <div className="min-h-screen bg-gray-50 font-sans text-mcmaster-grey">
         <Navbar />
-        <main className="max-w-7xl mx-auto py-8 px-4">
+        
+        {/* UPDATED: Removed 'max-w-7xl', 'py-8', and 'px-4' */}
+        {/* Now it allows pages to decide their own width */}
+        <main className="w-full">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/people" element={<People />} />
@@ -25,6 +29,8 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
+
+        <Footer />
       </div>
     </Router>
   );
