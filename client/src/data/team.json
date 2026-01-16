@@ -1,0 +1,57 @@
+[
+  {
+    "id": "pi-1",
+    "name": "Dr. Leyla Soleymani",
+    "role": "Principal Investigator",
+    "degrees": "B.Eng. (McGill), M.Sc.(University of Southern California), Ph.D. (Toronto)",
+    "titles": [
+      "Professor and Canada Research Chair in Miniaturized Biomedical Devices",
+      "Department of Engineering Physics and School of Biomedical Engineering",
+      "Associate Vice-president Research (Commercialization and Entrepreneurship)",
+      "McMaster University"
+    ],
+    "image": "/people/drsoleymani.jpg",
+    "email": "soleyml@mcmaster.ca",
+    "group": "PI"
+  },
+  {
+    "id": 1,
+    "name": "Dr. Sarah Johnson",
+    "role": "Post-Doctoral Fellow",
+    "joined": "Fall 2023",
+    "research_focus": "DNA Nanotechnology",
+    "research_link": "/research/diagnostics",
+    "image": "https://placehold.co/400x500/gray/white?text=Sarah",
+    "group": "Post-Doctoral Fellows"
+  },
+  {
+    "id": 2,
+    "name": "Michael Chen",
+    "role": "PhD Candidate",
+    "joined": "September 2024",
+    "research_focus": "Wearable Cortisol Sensors",
+    "research_link": "/research/wearables",
+    "image": "https://placehold.co/400x500/gray/white?text=Michael",
+    "group": "Graduate Students"
+  },
+  {
+    "id": 3,
+    "name": "Emily Davis",
+    "role": "MASc Student",
+    "joined": "January 2025",
+    "research_focus": "Anti-fouling Coatings",
+    "research_link": "/research/materials",
+    "image": "https://placehold.co/400x500/gray/white?text=Emily",
+    "group": "Graduate Students"
+  },
+  {
+    "id": 4,
+    "name": "James Wilson",
+    "role": "Undergraduate Researcher",
+    "joined": "Summer 2025",
+    "research_focus": "Signal Processing",
+    "research_link": "/research/diagnostics",
+    "image": "https://placehold.co/400x500/gray/white?text=James",
+    "group": "Undergraduate Students"
+  }
+]

@@ -1,62 +1,92 @@
 import fs from 'fs';
-// Note: If you haven't installed 'node-fetch' yet, run: npm install node-fetch
 import fetch from 'node-fetch';
 
-const AUTHOR_ID = '2262212'; // Dr. Soleymani's ID
-const JSON_FILE_PATH = './client/src/data/publications.json';
+// --- CONFIGURATION ---
+// Add all the Semantic Scholar IDs you want to merge here.
+const AUTHOR_IDS = [
+  '2262212',  // Profile 1
+  '2283336511',  // Example Profile 2 (Replace with real ID)
+  '2239399173',   // Example Profile 3 (Replace with real ID)
+  '2255804891',   // Example Profile 4 (Replace with real ID)
+  '2330005962',   // Example Profile 5 (Replace with real ID)
+]; 
 
-// Changed limit=20 to limit=500
-const url = `https://api.semanticscholar.org/graph/v1/author/${AUTHOR_ID}/papers?fields=title,year,authors,venue,url,citationCount&limit=500&sort=year:desc`;
+const JSON_FILE_PATH = './client/src/data/publications.json';
 
 async function fetchPapers() {
   try {
-    console.log("Fetching papers from Semantic Scholar...");
-    const response = await fetch(url);
-    const data = await response.json();
+    console.log(`Starting fetch for ${AUTHOR_IDS.length} author profiles...`);
 
-    if (!data.data) {
-      throw new Error("No data found. Check Author ID.");
-    }
+    const fetchPromises = AUTHOR_IDS.map(async (id) => {
+      // Added 'publicationDate' and 'externalIds' to the requested fields
+      const url = `https://api.semanticscholar.org/graph/v1/author/${id}/papers?fields=title,year,authors,venue,url,citationCount,publicationDate,externalIds&limit=500`;
+      const response = await fetch(url);
+      const data = await response.json();
+      return data.data || [];
+    });
 
-    // 1. Load existing data so we don't lose custom images
+    const results = await Promise.all(fetchPromises);
+    const rawPapers = results.flat();
+    console.log(`Fetched ${rawPapers.length} total papers.`);
+
+    // Load existing data to preserve custom images
     let existingPapers = [];
     try {
       if (fs.existsSync(JSON_FILE_PATH)) {
         const fileContent = fs.readFileSync(JSON_FILE_PATH, 'utf-8');
         existingPapers = JSON.parse(fileContent);
       }
-    } catch (err) {
-      console.log("No existing file found, creating new one.");
-    }
+    } catch (err) { /* ignore */ }
 
-    // 2. Format the new data
-    const formattedPapers = data.data.map((paper, index) => {
-      // Check if we already have this paper in our local file
-      // We match by TITLE (ignoring case)
-      const existingMatch = existingPapers.find(p => p.title.toLowerCase() === paper.title.toLowerCase());
-      
-      // If we found a match AND it has a custom image (not a placeholder), use that image.
-      // Otherwise, use the placeholder.
-      const imageToUse = (existingMatch && !existingMatch.image.includes('placehold.co')) 
-        ? existingMatch.image 
-        : "https://placehold.co/200x200/7A003C/white?text=Paper";
+    const uniquePapersMap = new Map();
 
-      return {
-        id: index + 1,
-        title: paper.title,
-        authors: paper.authors.map(a => a.name).slice(0, 5).join(", ") + (paper.authors.length > 5 ? "..." : ""),
-        journal: paper.venue || "Journal",
-        year: paper.year,
-        image: imageToUse, // <--- The smart logic
-        link: paper.url,
-        citationCount: paper.citationCount
-      };
+    rawPapers.forEach(paper => {
+      if (!paper.title) return;
+
+      const normalizedTitle = paper.title.trim().toLowerCase();
+
+      if (!uniquePapersMap.has(normalizedTitle)) {
+        
+        // Preserve Custom Image
+        const existingMatch = existingPapers.find(p => p.title.toLowerCase() === normalizedTitle);
+        const imageToUse = (existingMatch && !existingMatch.image.includes('placehold.co')) 
+          ? existingMatch.image 
+          : "https://placehold.co/200x200/7A003C/white?text=Paper";
+
+        // Logic: Prefer DOI link, fallback to Semantic Scholar URL
+        const doiLink = paper.externalIds && paper.externalIds.DOI 
+          ? `https://doi.org/${paper.externalIds.DOI}` 
+          : paper.url;
+
+        // Logic: Ensure we have a valid date string (fallback to Jan 1st of the year)
+        const pubDate = paper.publicationDate || `${paper.year}-01-01`;
+
+        uniquePapersMap.set(normalizedTitle, {
+          title: paper.title,
+          authors: paper.authors.map(a => a.name).slice(0, 5).join(", ") + (paper.authors.length > 5 ? "..." : ""),
+          journal: paper.venue || "Journal",
+          year: paper.year,
+          date: pubDate,  // <--- NEW FIELD
+          image: imageToUse,
+          link: doiLink,  // <--- NEW LINK LOGIC
+          citationCount: paper.citationCount
+        });
+      }
     });
 
-    // 3. Save
-    fs.writeFileSync(JSON_FILE_PATH, JSON.stringify(formattedPapers, null, 2));
-    console.log(`✅ Success! Updated ${JSON_FILE_PATH}`);
-    console.log(`   (Preserved custom images for ${formattedPapers.filter(p => !p.image.includes('placehold.co')).length} papers)`);
+    let finalPapers = Array.from(uniquePapersMap.values());
+
+    // SORT BY DATE DESCENDING (Newest First)
+    finalPapers.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+    // Re-assign IDs
+    finalPapers = finalPapers.map((paper, index) => ({
+      id: index + 1,
+      ...paper
+    }));
+
+    fs.writeFileSync(JSON_FILE_PATH, JSON.stringify(finalPapers, null, 2));
+    console.log(`✅ Success! Saved ${finalPapers.length} papers (Sorted by Date, linked to DOI).`);
 
   } catch (error) {
     console.error("❌ Error fetching papers:", error);
