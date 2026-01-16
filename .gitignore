@@ -11,3 +11,6 @@ build/
 
 # System files
 .DS_Store
+
+# VSCode Files
+genetic_sensing_site.code-workspace
