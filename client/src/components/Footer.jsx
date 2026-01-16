@@ -72,7 +72,7 @@ const Footer = () => {
                 <ExternalLink className="w-3 h-3 ml-2 opacity-0 group-hover:opacity-100 transition-opacity" />
               </a>
               <a 
-                href="https://www.eng.mcmaster.ca/ibiomed/" 
+                href="https://www.eng.mcmaster.ca/msbe/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="group flex items-center text-gray-300 hover:text-white transition-colors text-sm"
@@ -83,10 +83,10 @@ const Footer = () => {
               
               {/* Social Icons */}
               <div className="pt-6 flex space-x-4">
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="p-2 bg-gray-800 rounded-full hover:bg-mcmaster-maroon transition-colors">
+                <a href="https://x.com/SoleymaniLab" target="_blank" rel="noopener noreferrer" className="p-2 bg-gray-800 rounded-full hover:bg-mcmaster-maroon transition-colors">
                   <Twitter className="w-5 h-5" />
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-2 bg-gray-800 rounded-full hover:bg-mcmaster-maroon transition-colors">
+                <a href="https://www.linkedin.com/in/leyla-soleymani-0151b115b/?originalSubdomain=ca" target="_blank" rel="noopener noreferrer" className="p-2 bg-gray-800 rounded-full hover:bg-mcmaster-maroon transition-colors">
                   <Linkedin className="w-5 h-5" />
                 </a>
               </div>

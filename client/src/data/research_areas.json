@@ -2,25 +2,28 @@
   {
     "id": 1,
     "title": "Continuous Health Monitoring",
-    "description_brief": "We are developing wearable electrochemical sensors that can continuously monitor physiological markers in sweat and interstitial fluid.",
-    "description_detailed": "Our lab is pioneering the next generation of wearable technology. Beyond simple step counting, we utilize aptamer-based sensing to detect specific biomarkers like glucose, cortisol, and lactate in real-time. This technology enables non-invasive monitoring for chronic conditions such as diabetes and heart failure, providing patients and clinicians with actionable data.",
-    "image": "https://placehold.co/800x600/7A003C/white?text=Wearables",
-    "link": "/research/wearables"
+    "description_brief": "We are developing wearable electrochemical sensors that can continuously monitor physiological markers.",
+    "description_detailed": "Our lab is pioneering the next generation of wearable technology. Beyond simple step counting, we utilize aptamer-based sensing to detect specific biomarkers like glucose, cortisol, and lactate in real-time.",
+    "image": "/researcharea1.webp",
+    "link": "/research/wearables",
+    "publication_ids": [23,25] 
   },
   {
     "id": 2,
     "title": "Rapid Infectious Disease Diagnostics",
     "description_brief": "Our lab engineers rapid, point-of-care diagnostic tools for detecting bacterial and viral infections.",
-    "description_detailed": "Addressing the global challenge of antimicrobial resistance, we are engineering diagnostic platforms that combine DNA nanotechnology with electronic readout. These devices are designed to identify bacterial strains and their antibiotic resistance profiles in under 30 minutes, enabling doctors to prescribe the right treatment immediately rather than waiting days for culture results.",
-    "image": "https://placehold.co/800x600/FDBF57/black?text=Diagnostics",
-    "link": "/research/diagnostics"
+    "description_detailed": "Addressing the global challenge of antimicrobial resistance, we are engineering diagnostic platforms that combine DNA nanotechnology with electronic readout.",
+    "image": "/researcharea2.webp",
+    "link": "/research/diagnostics",
+    "publication_ids": [24,9,7]
   },
   {
     "id": 3,
     "title": "Smart Materials & Bio-Interfaces",
-    "description_brief": "We study how nanostructured materials interact with biological systems to create smart, functional surfaces.",
-    "description_detailed": "The interface between a device and the body is critical. We synthesize novel nanostructured materials that can repel bacteria (anti-fouling) while enhancing the sensitivity of biosensing elements. Our work in material science bridges the gap between raw fabrication and clinical application, ensuring devices remain functional in complex biological fluids.",
-    "image": "https://placehold.co/800x600/333333/white?text=Materials",
-    "link": "/research/materials"
+    "description_brief": "We study how nanostructured materials interact with biological systems.",
+    "description_detailed": "The interface between a device and the body is critical. We synthesize novel nanostructured materials that can repel bacteria while enhancing sensitivity.",
+    "image": "/researcharea3.jpg",
+    "link": "/research/materials",
+    "publication_ids": [22,29]
   }
 ]

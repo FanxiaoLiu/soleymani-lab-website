@@ -1,7 +1,38 @@
 [
   {
     "id": 1,
-    "date": "Placeholder",
-    "content": "Content"
+    "title": "Dr. Soleymani receives prestigious Dorothy Killam Fellowship",
+    "date": "2025-03-19",
+    "category": "Grant",
+    "content": "Dr. Soleymani has been awarded the Dorothy Killam Fellowship to support her research on next-generation wearable devices for early disease detection and prevention.",
+    "image": "",
+    "link": "https://news.mcmaster.ca/leyla-soleymani-dorothy-killam-fellowship-2025-wearable-health-devices/"
+  },
+  {
+    "id": 2,
+    "title": "New Publication in Nature Reviews Bioengineering",
+    "date": "2025-12-15",
+    "category": "Publication",
+    "content": "Our latest work on 'Integrated hydrogel microneedle aptamer sensor for wearable insulin monitoring' has been published in Nature Reviews Bioengineering. Congratulations to Dr. Mayank Garg, Stephen Chupil, Jonathan L’Heureux-Hache for this incredible work!",
+    "image": "",
+    "link": "https://www.nature.com/articles/s44222-025-00394-3"
+  },
+  {
+    "id": 4,
+    "title": "Welcome New Graduate Students",
+    "date": "2025-09-01",
+    "category": "Team",
+    "content": "The Soleymani Lab is excited to welcome three new MASc students and one PhD candidate to the group this fall semester.",
+    "image": "",
+    "link": ""
+  },
+  {
+    "id": 5,
+    "title": "Keynote",
+    "date": "2024-05-20",
+    "category": "Talk",
+    "content": "",
+    "image": "",
+    "link": ""
   }
 ]
