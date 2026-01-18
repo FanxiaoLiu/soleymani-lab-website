@@ -12,7 +12,7 @@
     "id": 2,
     "title": "Rapid Infectious Disease Diagnostics",
     "description_brief": "Our lab engineers rapid, point-of-care diagnostic tools for detecting bacterial and viral infections.",
-    "description_detailed": "Addressing the global challenge of antimicrobial resistance, we are engineering diagnostic platforms that combine DNA nanotechnology with electronic readout.",
+    "description_detailed": "Addressing the global challenge of viral infectious diseases, we are engineering diagnostic platforms that combine DNA nanotechnology with electronic readout using electrochemistry.",
     "image": "/researcharea2.webp",
     "link": "/research/diagnostics",
     "publication_ids": [24,9,7]
@@ -20,8 +20,8 @@
   {
     "id": 3,
     "title": "Smart Materials & Bio-Interfaces",
-    "description_brief": "We study how nanostructured materials interact with biological systems.",
-    "description_detailed": "The interface between a device and the body is critical. We synthesize novel nanostructured materials that can repel bacteria while enhancing sensitivity.",
+    "description_brief": "We study how nanostructured materials interact with biological systems. ",
+    "description_detailed": "The interface between a device and the body is critical. We make use of novel nanostructured materials to enhance sensitivity and biocompatibility.",
     "image": "/researcharea3.jpg",
     "link": "/research/materials",
     "publication_ids": [22,29]

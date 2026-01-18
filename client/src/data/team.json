@@ -15,43 +15,263 @@
     "group": "PI"
   },
   {
-    "id": 1,
-    "name": "Dr. Sarah Johnson",
-    "role": "Post-Doctoral Fellow",
-    "joined": "Fall 2023",
-    "research_focus": "DNA Nanotechnology",
-    "research_link": "/research/diagnostics",
-    "image": "https://placehold.co/400x500/gray/white?text=Sarah",
-    "group": "Post-Doctoral Fellows"
-  },
-  {
-    "id": 2,
-    "name": "Michael Chen",
+    "name": "Ehsan Heydarian Dolatabadi",
     "role": "PhD Candidate",
-    "joined": "September 2024",
-    "research_focus": "Wearable Cortisol Sensors",
-    "research_link": "/research/wearables",
-    "image": "https://placehold.co/400x500/gray/white?text=Michael",
-    "group": "Graduate Students"
-  },
-  {
-    "id": 3,
-    "name": "Emily Davis",
-    "role": "MASc Student",
-    "joined": "January 2025",
-    "research_focus": "Anti-fouling Coatings",
-    "research_link": "/research/materials",
-    "image": "https://placehold.co/400x500/gray/white?text=Emily",
-    "group": "Graduate Students"
-  },
-  {
-    "id": 4,
-    "name": "James Wilson",
-    "role": "Undergraduate Researcher",
-    "joined": "Summer 2025",
-    "research_focus": "Signal Processing",
+    "joined": "Fall 2022",
+    "research_focus": "Viral DNA Sensors",
     "research_link": "/research/diagnostics",
-    "image": "https://placehold.co/400x500/gray/white?text=James",
-    "group": "Undergraduate Students"
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Graduate Students",
+    "id": 1
+  },
+  {
+    "name": "Fatima Shafique",
+    "role": "PhD Candidate",
+    "joined": "Fall 2023",
+    "research_focus": "Wearable Sensors",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Graduate Students",
+    "id": 2
+  },
+  {
+    "name": "Jenna Harris",
+    "role": "PhD Candidate",
+    "joined": "Fall 2023",
+    "research_focus": "DNA Sensors",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Graduate Students",
+    "id": 3
+  },
+  {
+    "name": "Jinal Manek",
+    "role": "Lab Tech",
+    "joined": "Fall 2023",
+    "research_focus": "Antimicrobial Surfaces",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Research Staff",
+    "id": 4
+  },
+  {
+    "name": "Kulmanak Bajaj",
+    "role": "PhD Candidate",
+    "joined": "Summer 2022",
+    "research_focus": "Biosensing",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Graduate Students",
+    "id": 5
+  },
+  {
+    "name": "Richard Kashimirian",
+    "role": "Master's Student",
+    "joined": "Fall 2023",
+    "research_focus": "Biosensing Surfaces",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Graduate Students",
+    "id": 6
+  },
+  {
+    "name": "Sadman Sakib",
+    "role": "Post-Doctoral Fellow",
+    "joined": "Fall 2018?",
+    "research_focus": "Electrochemical Biosensing",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Post-Doctoral Fellows",
+    "id": 7
+  },
+  {
+    "name": "Survanshu Saxena",
+    "role": "PhD Candidate",
+    "joined": "Fall 2021",
+    "research_focus": "Biosensing Surfaces",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Graduate Students",
+    "id": 8
+  },
+  {
+    "name": "Youngeun (Amy) Choi",
+    "role": "PhD Candidate",
+    "joined": "Fall 2022",
+    "research_focus": "Viral Biosensing",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Graduate Students",
+    "id": 9
+  },
+  {
+    "name": "Ragulan Rathakrishnan",
+    "role": "PhD Candidate",
+    "joined": "Fall 2024",
+    "research_focus": "Electrochemistry",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Graduate Students",
+    "id": 10
+  },
+  {
+    "name": "Mayank Garg",
+    "role": "Post-Doctoral Fellow",
+    "joined": "Winter 2025",
+    "research_focus": "Wearable Biosensing",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Post-Doctoral Fellows",
+    "id": 11
+  },
+  {
+    "name": "Nguyen Duc Cuong Le (Ace Le)",
+    "role": "PhD Student",
+    "joined": "Fall 2025",
+    "research_focus": "DNA Aptamer Sensing",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Graduate Students",
+    "id": 12
+  },
+  {
+    "name": "Derek Zhou",
+    "role": "PhD Student",
+    "joined": "Fall 2025",
+    "research_focus": "Biosensing",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Graduate Students",
+    "id": 13
+  },
+  {
+    "name": "Amanda Power",
+    "role": "Master's Student",
+    "joined": "Fall 2025",
+    "research_focus": "Wearable Biosensors",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Graduate Students",
+    "id": 14
+  },
+  {
+    "name": "Franky Liu",
+    "role": "Undergraduate Thesis Student",
+    "joined": "Summer 2024",
+    "research_focus": "Wearable Biosensing",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Undergraduate Students",
+    "id": 15
+  },
+  {
+    "name": "Wantong Li",
+    "role": "Undergraduate Student",
+    "joined": "Fall 2023",
+    "research_focus": "DNA Biosensing",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Undergraduate Students",
+    "id": 16
+  },
+  {
+    "name": "Jasmine Ren",
+    "role": "Undergraduate Student",
+    "joined": "Summer 2025",
+    "research_focus": "Biosensing",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Undergraduate Students",
+    "id": 17
+  },
+  {
+    "name": "Mohammed Hasan",
+    "role": "Undergraduate Thesis Student",
+    "joined": "Summer 2025",
+    "research_focus": "Biosensing",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Undergraduate Students",
+    "id": 18
+  },
+  {
+    "name": "Shayan Mirmani",
+    "role": "Undergraduate Thesis Student",
+    "joined": "Fall 2025",
+    "research_focus": "Electrochemistry",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Undergraduate Students",
+    "id": 19
+  },
+  {
+    "name": "Rachael Bowman",
+    "role": "Undergraduate Student",
+    "joined": "Fall 2025",
+    "research_focus": "Biosensing",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Undergraduate Students",
+    "id": 20
+  },
+  {
+    "name": "Mehar Sighat",
+    "role": "Undergraduate Student",
+    "joined": "Fall 2025",
+    "research_focus": "Aptamer Biosensing",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Undergraduate Students",
+    "id": 21
+  },
+  {
+    "name": "Ali Umar",
+    "role": "Undergraduate Student",
+    "joined": "Fall 2025",
+    "research_focus": "Biosensing",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Undergraduate Students",
+    "id": 22
+  },
+  {
+    "name": "Jiaying (Tina) Liu",
+    "role": "Undergraduate Student",
+    "joined": "Summer 2025",
+    "research_focus": "Biosurfaces",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Undergraduate Students",
+    "id": 23
+  },
+  {
+    "name": "Lindsay Kang",
+    "role": "Undergraduate Student",
+    "joined": "Winter 2026",
+    "research_focus": "Wearable Biosensing",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Undergraduate Students",
+    "id": 24
+  },
+  {
+    "name": "Muskaan Singla",
+    "role": "Undergraduate Thesis Student",
+    "joined": "Summer 2025",
+    "research_focus": "Wearable Biosensing",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Undergraduate Students",
+    "id": 25
+  },
+  {
+    "name": "Navid Farkhondehpay",
+    "role": "Undergraduate Student",
+    "joined": "Winter 2025",
+    "research_focus": "Biosensing",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Undergraduate Students",
+    "id": 26
   }
 ]
