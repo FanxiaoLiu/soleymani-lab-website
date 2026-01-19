@@ -21,7 +21,7 @@ const Alumni = () => {
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Alumni</h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-            Our lab has a strong track record of training the next generation of leaders in academia, industry, and medicine.
+            Celebrating the achievements of our former lab members and their contributions to science and industry.
           </p>
         </div>
       </div>

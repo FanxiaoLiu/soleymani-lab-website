@@ -59,7 +59,7 @@ const Research = () => {
                   src={area.image} 
                   alt={area.title} 
                   // 3. absolute inset-0: Forces image to fill the parent container exactly
-                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  className="absolute inset-0 w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-mcmaster-maroon/0 group-hover:bg-mcmaster-maroon/10 transition-colors duration-500 pointer-events-none"></div>
               </div>
