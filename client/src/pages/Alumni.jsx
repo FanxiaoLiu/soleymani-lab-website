@@ -4,10 +4,11 @@ import alumniData from '../data/alumni.json';
 const Alumni = () => {
   // Define the order of groups
   const groupOrder = [
+    "Post-Doctoral Fellows",
+    "Staff",
     "PhD Graduates",
     "Masters Graduates",
-    "Undergraduate Alumni",
-    "Former Staff"
+    "Undergraduate Students"
   ];
 
   const getAlumniByGroup = (groupName) => 

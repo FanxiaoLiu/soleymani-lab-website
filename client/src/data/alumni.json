@@ -1,34 +1,138 @@
 [
   {
     "id": 1,
-    "name": "Dr. John Smith",
-    "former_role": "PhD Graduate (2024)",
-    "current_position": "Postdoctoral Fellow",
-    "current_org": "Massachusetts Institute of Technology (MIT)",
-    "group": "PhD Graduates"
+    "name": "Jonathan L'Heureux Hache",
+    "former_role": "Lab Manager (2021-2025)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Staff"
   },
   {
     "id": 2,
-    "name": "Sarah Williams",
-    "former_role": "MASc Graduate (2023)",
-    "current_position": "R&D Engineer",
-    "current_org": "Abbott Point of Care",
-    "group": "Masters Graduates"
-  },
-  {
-    "id": 3,
-    "name": "Dr. Emily Chen",
-    "former_role": "PhD Graduate (2022)",
-    "current_position": "Senior Scientist",
-    "current_org": "Roche Diagnostics",
+    "name": "Elaheh (Fatemeh) Bakhshandeh",
+    "former_role": "PhD Graduate (2024)",
+    "current_position": "NA",
+    "current_org": "NA",
     "group": "PhD Graduates"
   },
   {
+    "id": 3,
+    "name": "Bal Ram Adhikari",
+    "former_role": "Post-Doctoral Fellow (2024)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Post-Doctoral Fellows"
+  },
+  {
     "id": 4,
-    "name": "Michael Brown",
-    "former_role": "Undergraduate Thesis Student (2023)",
-    "current_position": "Medical Student",
-    "current_org": "University of Toronto",
-    "group": "Undergraduate Alumni"
+    "name": "Dr. Roderick Maclachlan",
+    "former_role": "Post-Doctoral Fellow (2025)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Post-Doctoral Fellows"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Enas Osman",
+    "former_role": "PhD Graduate (2025)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "PhD Graduates"
+  },
+  {
+    "id": 6,
+    "name": "Dr. Payel Sen",
+    "former_role": "Post-Doctoral Fellow (2024)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Post-Doctoral Fellows"
+  },
+  {
+    "id": 7,
+    "name": "Dr. Harmanjit Kaur",
+    "former_role": "Post-Doctoral Fellow (2025)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Post-Doctoral Fellows"
+  },
+  {
+    "id": 8,
+    "name": "Dr. Christopher Tsui",
+    "former_role": "Post-Doctoral Fellow (2025)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Post-Doctoral Fellows"
+  },
+  {
+    "id": 9,
+    "name": "Dr. Milana Pikula",
+    "former_role": "Post-Doctoral Fellow (2025)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Post-Doctoral Fellows"
+  },
+  {
+    "id": 10,
+    "name": "Shely Patel",
+    "former_role": "Undergraduate Student (2023)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Undergraduate Students"
+  },
+  {
+    "id": 11,
+    "name": "Son Van",
+    "former_role": "Undergraduate Student (2024)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Undergraduate Students"
+  },
+  {
+    "id": 12,
+    "name": "Yatharth Utkarshkumar Dave",
+    "former_role": "Undergraduate Student (2023)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Undergraduate Students"
+  },
+  {
+    "id": 13,
+    "name": "Simer Gill",
+    "former_role": "Undergraduate Student (2023)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Undergraduate Students"
+  },
+  {
+    "id": 14,
+    "name": "Emaan Qureshi",
+    "former_role": "Undergraduate Student (2024)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Undergraduate Students"
+  },
+  {
+    "id": 15,
+    "name": "Madelyn Hogan",
+    "former_role": "Undergraduate Student (2024)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Undergraduate Students"
+  },
+  {
+    "id": 16,
+    "name": "Hibah Hussain",
+    "former_role": "Undergraduate Student (2024)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Undergraduate Students"
+  },
+  {
+    "id": 17,
+    "name": "Phoebe Li",
+    "former_role": "Undergraduate Student (2024)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Undergraduate Students"
   }
 ]

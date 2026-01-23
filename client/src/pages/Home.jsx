@@ -191,7 +191,7 @@ const Home = () => {
             Innovating at the intersection of Science & Engineering
           </h2>
           <Link to="/research" className="inline-block px-8 py-3 border-2 border-white text-white font-bold uppercase tracking-wider rounded-full hover:bg-white hover:text-mcmaster-maroon transition-colors">
-            Explore Our Methodology
+            Explore Our Research
           </Link>
         </div>
       </div>
