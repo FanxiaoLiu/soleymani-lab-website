@@ -216,13 +216,19 @@ const Home = () => {
                 key={area.id} 
                 className="bg-gray-50 rounded-2xl overflow-hidden border border-gray-100 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-lg flex flex-col h-full group"
               >
-                <div className="h-56 overflow-hidden relative">
+                {/* --- UPDATED IMAGE CONTAINER --- */}
+                {/* 1. h-64: Fixed height to force consistency.
+                    2. bg-white: Distinct background frame.
+                    3. p-6: Padding so image doesn't touch edges. */}
+                <div className="h-64 overflow-hidden relative bg-white border-b border-gray-100 p-6 flex items-center justify-center">
                   <img 
                     src={area.image} 
                     alt={area.title} 
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    // 4. object-contain: Ensures whole image is visible without cropping
+                    className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-mcmaster-maroon/0 group-hover:bg-mcmaster-maroon/20 transition-colors duration-300" />
+                  {/* Subtle Overlay */}
+                  <div className="absolute inset-0 bg-mcmaster-maroon/0 group-hover:bg-mcmaster-maroon/5 transition-colors duration-300 pointer-events-none" />
                 </div>
 
                 <div className="p-8 flex flex-col flex-grow">
@@ -250,7 +256,6 @@ const Home = () => {
 
         </div>
       </div>
-
     </div>
   );
 };

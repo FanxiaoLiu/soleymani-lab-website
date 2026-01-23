@@ -44,28 +44,34 @@ const Research = () => {
             <div 
               key={area.id} 
               id={area.link.replace('/research/', '')}
-              // Added 'items-stretch' to ensure both columns are equal height
+              // --- FIX 1: Removed 'bg-gray-50' from the conditional ---
+              // Now only the direction flips (row-reverse), but the background stays white.
               className={`flex flex-col md:flex-row w-full items-stretch
-                ${index % 2 === 1 ? 'md:flex-row-reverse bg-gray-50' : 'bg-white'}
+                ${index % 2 === 1 ? 'md:flex-row-reverse' : ''} 
               `}
             >
               
-              {/* --- IMAGE HALF (Updated) --- */}
-              {/* 1. h-64 md:h-auto: Fixed height on mobile, auto matches text on desktop
-                  2. relative: Anchors the absolute image inside
+              {/* --- IMAGE HALF --- */}
+              {/* --- FIX 2: Changed 'bg-gray-100/50' to 'bg-gray-50' --- 
+                  This makes the side panel much lighter (subtle grey) instead of dark grey. 
               */}
-              <div className="w-full md:w-1/2 h-64 md:h-auto relative group overflow-hidden">
-                <img 
-                  src={area.image} 
-                  alt={area.title} 
-                  // 3. absolute inset-0: Forces image to fill the parent container exactly
-                  className="absolute inset-0 w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-mcmaster-maroon/0 group-hover:bg-mcmaster-maroon/10 transition-colors duration-500 pointer-events-none"></div>
+              <div className="w-full md:w-1/2 p-8 md:p-12 flex items-center justify-center bg-gray-50">
+                
+                {/* Image Card */}
+                <div className="relative w-full max-w-2xl h-[400px] md:h-[500px] bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden group">
+                  <img 
+                    src={area.image} 
+                    alt={area.title} 
+                    className="w-full h-full object-contain p-4 transition-transform duration-700 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-mcmaster-maroon/0 group-hover:bg-mcmaster-maroon/5 transition-colors duration-500 pointer-events-none"></div>
+                </div>
+
               </div>
 
               {/* --- TEXT HALF --- */}
-              <div className="w-full md:w-1/2 p-10 lg:p-24 flex flex-col justify-center">
+              {/* Always white background now */}
+              <div className="w-full md:w-1/2 p-10 lg:p-24 flex flex-col justify-center bg-white">
                 
                 <span className="text-6xl font-bold text-gray-100 mb-4 select-none">
                   0{index + 1}
