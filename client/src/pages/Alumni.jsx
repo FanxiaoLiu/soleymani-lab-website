@@ -22,7 +22,7 @@ const Alumni = () => {
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Alumni</h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-            Celebrating the achievements of our former lab members and their contributions to science and industry.
+            Recognizing our former lab members and their contributions.
           </p>
         </div>
       </div>

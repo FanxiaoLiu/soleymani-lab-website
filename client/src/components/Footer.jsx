@@ -95,17 +95,6 @@ const Footer = () => {
 
         </div>
       </div>
-
-      {/* Copyright Bar */}
-      <div className="bg-black py-4">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
-          <p>© {currentYear} Soleymani Lab. All rights reserved.</p>
-          <div className="flex space-x-4 mt-2 md:mt-0">
-            <span className="hover:text-gray-300 cursor-pointer">Privacy Policy</span>
-            <span className="hover:text-gray-300 cursor-pointer">Accessibility</span>
-          </div>
-        </div>
-      </div>
     </footer>
   );
 };

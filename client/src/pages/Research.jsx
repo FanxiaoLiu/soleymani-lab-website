@@ -27,10 +27,6 @@ const Research = () => {
       <div className="bg-gray-900 text-white py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Research</h1>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            We are pioneering new technologies at the interface of material science, 
-            biomedical engineering, and clinical diagnostics.
-          </p>
         </div>
       </div>
 

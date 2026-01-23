@@ -205,9 +205,6 @@ const Home = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-mcmaster-maroon mb-4">Research Areas</h2>
             <div className="h-1 w-24 bg-mcmaster-gold mx-auto rounded-full"></div>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto mt-6">
-              Our multidisciplinary approach bridges the gaps between material science, clinical needs, and engineering solutions.
-            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
