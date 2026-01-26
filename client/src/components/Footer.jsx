@@ -16,10 +16,10 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin className="w-5 h-5 mr-3 text-gray-400 mt-1 flex-shrink-0" />
                 <span className="text-gray-300 text-sm leading-relaxed">
-                  John Hodgins Engineering Building (JHE)<br />
-                  Room A315<br />
+                  Engineering Technology Building (ETB)<br />
+                  Room 428/429<br />
                   1280 Main Street West<br />
-                  Hamilton, Ontario, L8S 4L7
+                  Hamilton, Ontario, L8S 4L8
                 </span>
               </li>
               <li className="flex items-center">
