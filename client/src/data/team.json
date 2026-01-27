@@ -12,7 +12,8 @@
     ],
     "image": "/people/drsoleymani.jpg",
     "email": "soleyml@mcmaster.ca",
-    "group": "PI"
+    "group": "PI",
+    "linkedin": "https://www.linkedin.com/in/leyla-soleymani-0151b115b/"
   },
   {
     "name": "Ehsan Heydarian Dolatabadi",
@@ -21,8 +22,10 @@
     "research_focus": "Viral DNA Sensors",
     "research_link": "/research/diagnostics",
     "image": "https://res.cloudinary.com/dbp3qdzpj/image/upload/v1769473965/Ehsan_hmbbu7.jpg",
-    "group": "Graduate Students",
-    "id": 1
+    "group": "PhD Candidates",
+    "id": 1,
+    "linkedin": "https://www.linkedin.com/in/ehsanhd/",
+    "email": "heydare@mcmaster.ca"
   },
   {
     "name": "Fatima Shafique",
@@ -31,8 +34,10 @@
     "research_focus": "Wearable Sensors",
     "research_link": "/research",
     "image": "https://res.cloudinary.com/dbp3qdzpj/image/upload/v1769473965/Fatima_s7w8to.jpg",
-    "group": "Graduate Students",
-    "id": 2
+    "group": "PhD Candidates",
+    "id": 2,
+    "linkedin": "https://www.linkedin.com/in/fatima-shafique-ln22/",
+    "email": "shafiquf@mcmaster.ca"
   },
   {
     "name": "Jenna Harris",
@@ -41,8 +46,10 @@
     "research_focus": "DNA Sensors",
     "research_link": "/research",
     "image": "https://res.cloudinary.com/dbp3qdzpj/image/upload/v1769473966/Jenna_vensmc.jpg",
-    "group": "Graduate Students",
-    "id": 3
+    "group": "PhD Candidates",
+    "id": 3,
+    "linkedin": "https://www.linkedin.com/in/jenna-harris116/",
+    "email": "harrij28@mcmaster.ca"
   },
   {
     "name": "Jinal Manek",
@@ -52,7 +59,9 @@
     "research_link": "/research",
     "image": "https://res.cloudinary.com/dbp3qdzpj/image/upload/v1769473967/Jinal_jpf5pq.jpg",
     "group": "Research Staff",
-    "id": 4
+    "id": 4,
+    "linkedin": "https://www.linkedin.com/in/jmanek98/",
+    "email": "manekj@mcmaster.ca"
   },
   {
     "name": "Kulmanak Bajaj",
@@ -61,8 +70,10 @@
     "research_focus": "Biosensing",
     "research_link": "/research",
     "image": "https://res.cloudinary.com/dbp3qdzpj/image/upload/v1769473966/Manak_r3ndlb.jpg",
-    "group": "Graduate Students",
-    "id": 5
+    "group": "PhD Candidates",
+    "id": 5,
+    "linkedin": "https://www.linkedin.com/in/manakbajaj/",
+    "email": "bajajk2@mcmaster.ca"
   },
   {
     "name": "Richard Kashimirian",
@@ -71,8 +82,10 @@
     "research_focus": "Biosensing Surfaces",
     "research_link": "/research",
     "image": "https://res.cloudinary.com/dbp3qdzpj/image/upload/v1769473965/Richard_o8wodq.jpg",
-    "group": "Graduate Students",
-    "id": 6
+    "group": "Master's Candidates",
+    "id": 6,
+    "linkedin": "https://www.linkedin.com/in/richard-kashmirian-b15059230/",
+    "email": "kashmirr@mcmaster.ca"
   },
   {
     "name": "Sadman Sakib",
@@ -82,7 +95,9 @@
     "research_link": "/research",
     "image": "https://res.cloudinary.com/dbp3qdzpj/image/upload/v1769473965/Sadman_tthnsh.jpg",
     "group": "Post-Doctoral Fellows",
-    "id": 7
+    "id": 7,
+    "linkedin": "https://www.linkedin.com/in/sadman--sakib/",
+    "email": "sakibs@mcmaster.ca"
   },
   {
     "name": "Survanshu Saxena",
@@ -91,8 +106,10 @@
     "research_focus": "Biosensing Surfaces",
     "research_link": "/research",
     "image": "https://res.cloudinary.com/dbp3qdzpj/image/upload/v1769473966/Survanshu_dkoutk.jpg",
-    "group": "Graduate Students",
-    "id": 8
+    "group": "PhD Candidates",
+    "id": 8,
+    "linkedin": "https://www.linkedin.com/in/survanshusaxena/",
+    "email": "saxens11@mcmaster.ca"
   },
   {
     "name": "Youngeun (Amy) Choi",
@@ -101,8 +118,10 @@
     "research_focus": "Viral Biosensing",
     "research_link": "/research",
     "image": "https://res.cloudinary.com/dbp3qdzpj/image/upload/v1769473965/Amy_zhatj0.jpg",
-    "group": "Graduate Students",
-    "id": 9
+    "group": "PhD Candidates",
+    "id": 9,
+    "linkedin": "NA",
+    "email": "choiy65@mcmaster.ca"
   },
   {
     "name": "Ragulan Rathakrishnan",
@@ -111,8 +130,10 @@
     "research_focus": "Electrochemistry",
     "research_link": "/research",
     "image": "https://res.cloudinary.com/dbp3qdzpj/image/upload/v1769473966/Ragulan_e3y39b.jpg",
-    "group": "Graduate Students",
-    "id": 10
+    "group": "PhD Candidates",
+    "id": 10,
+    "linkedin": "https://www.linkedin.com/in/ragulan-rathakrishnan-44ba17173/",
+    "email": "rathar1@mcmaster.ca"
   },
   {
     "name": "Mayank Garg",
@@ -122,7 +143,9 @@
     "research_link": "/research",
     "image": "https://placehold.co/400x500/gray/white?text=Member",
     "group": "Post-Doctoral Fellows",
-    "id": 11
+    "id": 11,
+    "linkedin": "https://www.linkedin.com/in/mayank-garg-b236b76b/",
+    "email": "gargm12@mcmaster.ca"
   },
   {
     "name": "Nguyen Duc Cuong Le (Ace Le)",
@@ -131,8 +154,10 @@
     "research_focus": "DNA Aptamer Sensing",
     "research_link": "/research",
     "image": "https://placehold.co/400x500/gray/white?text=Member",
-    "group": "Graduate Students",
-    "id": 12
+    "group": "PhD Candidates",
+    "id": 12,
+    "linkedin": "https://www.linkedin.com/in/cuong-le-nguyen-duc-112science/",
+    "email": "lec31@mcmaster.ca"
   },
   {
     "name": "Derek Zhou",
@@ -141,8 +166,10 @@
     "research_focus": "Biosensing",
     "research_link": "/research",
     "image": "https://placehold.co/400x500/gray/white?text=Member",
-    "group": "Graduate Students",
-    "id": 13
+    "group": "PhD Candidates",
+    "id": 13,
+    "linkedin": "NA",
+    "email": "zhoud37@mcmaster.ca"
   },
   {
     "name": "Amanda Power",
@@ -151,8 +178,10 @@
     "research_focus": "Wearable Biosensors",
     "research_link": "/research",
     "image": "https://placehold.co/400x500/gray/white?text=Member",
-    "group": "Graduate Students",
-    "id": 14
+    "group": "Master's Candidates",
+    "id": 14,
+    "linkedin": "https://www.linkedin.com/in/amanda-power-6a6bb9250/",
+    "email": "powera13@mcmaster.ca"
   },
   {
     "name": "Franky Liu",
@@ -162,7 +191,9 @@
     "research_link": "/research",
     "image": "https://placehold.co/400x500/gray/white?text=Member",
     "group": "Undergraduate Students",
-    "id": 15
+    "id": 15,
+    "linkedin": "https://www.linkedin.com/in/franky-liu-2a78601a4/",
+    "email": "liuf76@mcmaster.ca"
   },
   {
     "name": "Wantong Li",
@@ -172,7 +203,9 @@
     "research_link": "/research",
     "image": "https://placehold.co/400x500/gray/white?text=Member",
     "group": "Undergraduate Students",
-    "id": 16
+    "id": 16,
+    "linkedin": "https://www.linkedin.com/in/wantong-helen-li/",
+    "email": "liw165@mcmaster.ca"
   },
   {
     "name": "Jasmine Ren",
@@ -182,7 +215,9 @@
     "research_link": "/research",
     "image": "https://placehold.co/400x500/gray/white?text=Member",
     "group": "Undergraduate Students",
-    "id": 17
+    "id": 17,
+    "linkedin": "https://www.linkedin.com/in/jasminejiemingren/",
+    "email": "renj56@mcmaster.ca"
   },
   {
     "name": "Mohammed Hasan",
@@ -192,7 +227,9 @@
     "research_link": "/research",
     "image": "https://res.cloudinary.com/dbp3qdzpj/image/upload/v1769473965/Hasan_uzapsw.jpg",
     "group": "Undergraduate Students",
-    "id": 18
+    "id": 18,
+    "linkedin": "https://www.linkedin.com/in/mohammed-hasan-b81100196/",
+    "email": "hasanm40@mcmaster.ca"
   },
   {
     "name": "Shayan Mirmani",
@@ -202,7 +239,9 @@
     "research_link": "/research",
     "image": "https://placehold.co/400x500/gray/white?text=Member",
     "group": "Undergraduate Students",
-    "id": 19
+    "id": 19,
+    "linkedin": "https://www.linkedin.com/in/shayan-mirmirani-43bb00299/",
+    "email": "mirmiras@mcmaster.ca"
   },
   {
     "name": "Rachael Bowman",
@@ -212,7 +251,9 @@
     "research_link": "/research",
     "image": "https://placehold.co/400x500/gray/white?text=Member",
     "group": "Undergraduate Students",
-    "id": 20
+    "id": 20,
+    "linkedin": "https://www.linkedin.com/in/rachael-bowman-434869221/",
+    "email": "bowmar9@mcmaster.ca"
   },
   {
     "name": "Mehar Sighat",
@@ -222,7 +263,9 @@
     "research_link": "/research",
     "image": "https://placehold.co/400x500/gray/white?text=Member",
     "group": "Undergraduate Students",
-    "id": 21
+    "id": 21,
+    "linkedin": "NA",
+    "email": "sighatm@mcmaster.ca"
   },
   {
     "name": "Ali Umar",
@@ -232,7 +275,9 @@
     "research_link": "/research",
     "image": "https://placehold.co/400x500/gray/white?text=Member",
     "group": "Undergraduate Students",
-    "id": 22
+    "id": 22,
+    "linkedin": "https://www.linkedin.com/in/ali-umar10/",
+    "email": "umara4@mcmaster.ca"
   },
   {
     "name": "Jiaying (Tina) Liu",
@@ -242,7 +287,9 @@
     "research_link": "/research",
     "image": "https://placehold.co/400x500/gray/white?text=Member",
     "group": "Undergraduate Students",
-    "id": 23
+    "id": 23,
+    "linkedin": "https://www.linkedin.com/in/jiaying-tina-liu-56bb432b2/",
+    "email": "liu1891@mcmaster.ca"
   },
   {
     "name": "Lindsay Kang",
@@ -252,7 +299,9 @@
     "research_link": "/research",
     "image": "https://placehold.co/400x500/gray/white?text=Member",
     "group": "Undergraduate Students",
-    "id": 24
+    "id": 24,
+    "linkedin": "https://www.linkedin.com/in/lindsay-kang-413183349/",
+    "email": "kangl9@mcmaster.ca"
   },
   {
     "name": "Muskaan Singla",
@@ -262,7 +311,9 @@
     "research_link": "/research",
     "image": "https://placehold.co/400x500/gray/white?text=Member",
     "group": "Undergraduate Students",
-    "id": 25
+    "id": 25,
+    "linkedin": "NA",
+    "email": "singlm1@mcmaster.ca"
   },
   {
     "name": "Navid Farkhondehpay",
@@ -272,6 +323,8 @@
     "research_link": "/research",
     "image": "https://placehold.co/400x500/gray/white?text=Member",
     "group": "Undergraduate Students",
-    "id": 26
+    "id": 26,
+    "linkedin": "https://www.linkedin.com/in/navid-farkhondehpay-8798a2301/",
+    "email": "farkhonn@mcmaster.ca"
   }
 ]

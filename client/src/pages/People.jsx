@@ -1,4 +1,4 @@
-import { Mail, ArrowRight, Calendar, FlaskConical } from 'lucide-react';
+import { Mail, ArrowRight, Calendar, FlaskConical, Linkedin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import teamData from '../data/team.json';
 
@@ -10,7 +10,8 @@ const People = () => {
   const groupOrder = [
     "Post-Doctoral Fellows",
     "Research Staff",
-    "Graduate Students",
+    "PhD Candidates",
+    "Master's Candidates",
     "Undergraduate Students"
   ];
 
@@ -48,13 +49,25 @@ const People = () => {
               ))}
             </div>
 
-            <div className="mt-8">
+            <div className="mt-8 flex flex-wrap gap-4 justify-center md:justify-start">
               <a 
                 href={`mailto:${pi?.email}`} 
                 className="inline-flex items-center px-6 py-3 border border-white rounded-full hover:bg-white hover:text-mcmaster-maroon transition-colors font-bold uppercase tracking-wide text-sm"
               >
-                <Mail className="mr-2 w-4 h-4" /> Contact Dr. Soleymani
+                <Mail className="mr-2 w-4 h-4" /> Email
               </a>
+              
+              {/* PI LinkedIn (Only shows if added to JSON) */}
+              {pi?.linkedin && (
+                <a 
+                  href={pi.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-6 py-3 bg-mcmaster-gold text-mcmaster-maroon border border-mcmaster-gold rounded-full hover:bg-white hover:border-white transition-colors font-bold uppercase tracking-wide text-sm"
+                >
+                  <Linkedin className="mr-2 w-4 h-4" /> LinkedIn
+                </a>
+              )}
             </div>
           </div>
         </div>
@@ -63,9 +76,6 @@ const People = () => {
       {/* =======================
           SECTION 2: THE TEAM
       ======================= */}
-      {/* FIX: Changed '-mt-8' (pull up) to 'mt-16' (push down). 
-          This adds space between the dark PI section and the team grid.
-      */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 relative z-10">
         
         {groupOrder.map((group) => {
@@ -87,14 +97,13 @@ const People = () => {
                   <div key={member.id} className="group relative bg-white rounded-xl shadow-lg overflow-hidden h-96 w-full cursor-pointer">
                     
                     {/* --- IMAGE --- */}
-                    {/* Note: Ensure images are in /public/people/ for this to work */}
                     <img 
                       src={member.image} 
                       alt={member.name} 
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     />
 
-                    {/* --- NAME TAG --- */}
+                    {/* --- NAME TAG (Visible by default) --- */}
                     <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 to-transparent p-6 pt-20 transition-all duration-300 group-hover:opacity-0">
                       <h3 className="text-white text-xl font-bold">{member.name}</h3>
                       <p className="text-mcmaster-gold text-sm font-medium uppercase tracking-wider">{member.role}</p>
@@ -118,6 +127,30 @@ const People = () => {
                             <span className="text-sm font-semibold text-white">Focus Area:</span>
                             <span className="text-sm opacity-90">{member.research_focus}</span>
                           </div>
+                        </div>
+
+                        {/* --- NEW: Contact Icons Row --- */}
+                        <div className="flex items-center gap-4 pt-2">
+                          {member.email && (
+                            <a 
+                              href={`mailto:${member.email}`} 
+                              className="text-white hover:text-mcmaster-gold transition-colors"
+                              title="Email"
+                            >
+                              <Mail className="w-5 h-5" />
+                            </a>
+                          )}
+                          {member.linkedin && (
+                            <a 
+                              href={member.linkedin} 
+                              target="_blank" 
+                              rel="noopener noreferrer" 
+                              className="text-white hover:text-mcmaster-gold transition-colors"
+                              title="LinkedIn"
+                            >
+                              <Linkedin className="w-5 h-5" />
+                            </a>
+                          )}
                         </div>
                       </div>
 
