@@ -1,89 +1,121 @@
-import fs from 'fs';
-import readline from 'readline';
-import path from 'path';
+import {
+  createPrompt,
+  ask,
+  pick,
+  confirm,
+  readJson,
+  writeJson,
+  validators,
+  isDryRun,
+} from './script-utils.mjs';
 
-// --- CONFIGURATION ---
 const JSON_FILE_PATH = './client/src/data/team.json';
-const PLACEHOLDER_IMG = "https://placehold.co/400x500/gray/white?text=Member";
+const PLACEHOLDER_IMG = 'https://placehold.co/400x500/gray/white?text=Member';
 
-// Define the questions we will ask
-const questions = [
-  { key: 'name', question: "Enter Name (e.g., John Smith): " },
-  { key: 'role', question: "Enter Role (e.g., PhD Candidate): " },
-  { key: 'joined', question: "Enter Joined Date (e.g., Fall 2025): " },
-  { key: 'research_focus', question: "Enter Research Focus (e.g., DNA Sensors): " },
-  { key: 'research_link', question: "Enter Research Link (e.g., /research/diagnostics): " },
-  { key: 'image', question: "Enter Image Path (Type 'NA' for placeholder): " },
-  { key: 'group', question: "Enter Group (e.g., Graduate Students, Undergraduate Students): " }
+// Field metadata. The order is the order the user is prompted in.
+const FIELDS = [
+  { key: 'name',           label: 'Name',                                          required: true },
+  { key: 'role',           label: 'Role (e.g., PhD Candidate)',                    required: true },
+  { key: 'joined',         label: 'Joined (e.g., Fall 2025)',                      required: false },
+  { key: 'research_focus', label: 'Research focus',                                required: false },
+  { key: 'research_link',  label: 'Research link (e.g., /research/diagnostics)',   required: false },
+  { key: 'image',          label: 'Image (filename, URL, or blank for placeholder)', required: false, isImage: true },
+  { key: 'group',          label: 'Group',                                         required: true,  isGroup: true },
+  { key: 'linkedin',       label: 'LinkedIn URL (optional)',                       required: false, validate: (v) => (v === '' ? null : validators.url(v)) },
+  { key: 'email',          label: 'Email (optional)',                              required: false, validate: (v) => (v === '' ? null : validators.email(v)) },
 ];
 
-// Setup Readline interface
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
+function normalizeImage(v) {
+  if (!v || v.toLowerCase() === 'na') return PLACEHOLDER_IMG;
+  if (v.startsWith('http') || v.startsWith('/')) return v;
+  return `/people/${v}`;
+}
 
-// Helper function to ask a question and return a promise
-const ask = (q) => new Promise((resolve) => rl.question(q, resolve));
+async function collectField(rl, field, existingGroups, current) {
+  if (field.isGroup) {
+    return pick(rl, field.label, existingGroups, {
+      allowOther: true,
+      otherLabel: 'Enter new group…',
+      default: current,
+    });
+  }
+  const v = await ask(rl, field.label, {
+    required: field.required,
+    default: current,
+    validate: field.validate,
+  });
+  return field.isImage ? normalizeImage(v) : v;
+}
 
 async function main() {
-  console.log("=== Lab Team Directory Updater ===");
-  console.log("Press Ctrl+C at any time to cancel.\n");
+  console.log('=== Lab Team Directory: Add Member ===');
+  console.log('Press Ctrl+C to cancel at any time.\n');
 
-  // 1. Load existing data
-  let teamData = [];
-  try {
-    const rawData = fs.readFileSync(JSON_FILE_PATH, 'utf-8');
-    teamData = JSON.parse(rawData);
-  } catch (err) {
-    console.error(`❌ Error reading ${JSON_FILE_PATH}. Make sure the file exists.`);
+  const dryRun = isDryRun();
+  if (dryRun) console.log('💧 Dry-run mode: no files will be written.\n');
+
+  const teamData = readJson(JSON_FILE_PATH, []);
+
+  const pi = teamData.find((p) => p.group === 'PI' || p.id === 'pi-1');
+  if (!pi) {
+    console.error('❌ PI entry not found in team.json. Refusing to proceed (would corrupt the file).');
     process.exit(1);
   }
+  const otherMembers = teamData.filter((p) => p !== pi);
+  const existingGroups = [...new Set(otherMembers.map((m) => m.group).filter(Boolean))];
 
-  // 2. Separate PI from the rest (We must preserve PI unchanged)
-  // Assuming PI is always the first element or identified by "pi-1"
-  const pi = teamData.find(p => p.group === 'PI' || p.id === 'pi-1');
-  const otherMembers = teamData.filter(p => p.group !== 'PI' && p.id !== 'pi-1');
-
-  // 3. Ask user for input
+  const rl = createPrompt();
   const newMember = {};
 
-  for (const q of questions) {
-    let answer = await ask(q.question);
-    
-    // Handle Special Logic for Image
-    if (q.key === 'image') {
-      if (answer.trim().toUpperCase() === 'NA' || answer.trim() === '') {
-        answer = PLACEHOLDER_IMG;
-      } else if (!answer.startsWith('http') && !answer.startsWith('/')) {
-        // Automatically add /people/ if user just types "john.jpg"
-        answer = `/people/${answer}`;
-      }
-    }
-
-    newMember[q.key] = answer.trim();
+  for (const field of FIELDS) {
+    newMember[field.key] = await collectField(rl, field, existingGroups);
   }
 
-  // 4. Generate a new numeric ID (Find max ID + 1)
-  const maxId = otherMembers.reduce((max, p) => (typeof p.id === 'number' ? Math.max(max, p.id) : max), 0);
+  // ID assignment (preserve existing scheme: PI is "pi-1", everyone else numeric).
+  const maxId = otherMembers.reduce(
+    (max, p) => (typeof p.id === 'number' ? Math.max(max, p.id) : max),
+    0
+  );
   newMember.id = maxId + 1;
 
-  console.log("\n--- Preview ---");
-  console.log(newMember);
+  // Preview + edit-on-confirm loop.
+  while (true) {
+    console.log('\n--- Preview ---');
+    console.log(JSON.stringify(newMember, null, 2));
 
-  const confirm = await ask("\nIs this correct? (y/n): ");
+    const ok = await confirm(rl, '\nIs this correct?', true);
+    if (ok) break;
 
-  if (confirm.toLowerCase() === 'y') {
-    // 5. Add to list (PI first, then existing members, then new member)
-    // You might want to append to 'otherMembers' and let the page sort them, 
-    // or insert them here. We will simply append.
-    const updatedList = [pi, ...otherMembers, newMember];
+    console.log('\nWhich field would you like to fix?');
+    FIELDS.forEach((f, i) => {
+      const v = newMember[f.key];
+      console.log(`  ${i + 1}) ${f.label}  ›  ${v === '' || v == null ? '<blank>' : v}`);
+    });
+    console.log(`  ${FIELDS.length + 1}) Cancel (discard everything)`);
 
-    fs.writeFileSync(JSON_FILE_PATH, JSON.stringify(updatedList, null, 2));
-    console.log(`\n✅ Success! Added ${newMember.name} to the directory.`);
-  } else {
-    console.log("\n❌ Cancelled. No changes made.");
+    const raw = await rl.ask(`> Pick [1-${FIELDS.length + 1}]: `);
+    if (raw === null) {
+      console.log('\n[stdin closed — aborting]');
+      rl.close();
+      return;
+    }
+    const n = parseInt(raw.trim(), 10);
+    if (n === FIELDS.length + 1) {
+      console.log('\n❌ Cancelled. No changes made.');
+      rl.close();
+      return;
+    }
+    if (n >= 1 && n <= FIELDS.length) {
+      const f = FIELDS[n - 1];
+      newMember[f.key] = await collectField(rl, f, existingGroups, newMember[f.key]);
+    } else {
+      console.log('  ⚠️  Invalid choice.');
+    }
   }
+
+  const updatedList = [pi, ...otherMembers, newMember];
+  writeJson(JSON_FILE_PATH, updatedList, { dryRun });
+  console.log(`\n✅ ${dryRun ? '[dry-run] Would have added' : 'Added'} ${newMember.name}.`);
 
   rl.close();
 }

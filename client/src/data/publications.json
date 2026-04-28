@@ -1,17 +1,94 @@
 [
   {
     "id": 1,
+    "title": "Beyond Metabolites: A Wearable Differential Biointerface Integrating Antibody and Aptamer Probes for the Real-Time Tracking of Proteins In Vivo",
+    "authors": "Hanjiang Zheng, Fatima Shafique, Alexander S. Qian, Mayank Garg, F. Gessler...",
+    "journal": "bioRxiv",
+    "year": 2026,
+    "date": "2026-03-31",
+    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
+    "link": "https://doi.org/10.64898/2026.03.27.714878",
+    "citationCount": 0
+  },
+  {
+    "id": 2,
+    "title": "A general strategy to enhance aptamer affinity by suppressing dissociation through symmetric assembly",
+    "authors": "Zijie Zhang, Wei Tian, Jimmy Gu, Jiuxing Li, Meng Liu...",
+    "journal": "Nucleic Acids Research",
+    "year": 2026,
+    "date": "2026-03-19",
+    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
+    "link": "https://doi.org/10.1093/nar/gkag268",
+    "citationCount": 0
+  },
+  {
+    "id": 3,
+    "title": "A Real‐Time Antifouling Multivalent Aptamer Platform for Wash‐Free Electrochemical Detection of Low‐Abundance Biomarkers in Human Plasma",
+    "authors": "Payel Sen, Survanshu Saxena, Zijie Zhang, Navreen Sandhu, Pranati Das...",
+    "journal": "Angewandte Chemie",
+    "year": 2026,
+    "date": "2026-03-05",
+    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
+    "link": "https://doi.org/10.1002/anie.8996615",
+    "citationCount": 0
+  },
+  {
+    "id": 4,
+    "title": "Motorized DNAzymes Drive Enhanced Electrochemical Biosensing for Rapid Bacterial Detection",
+    "authors": "Amir Ali Akhlaghi, S. Sakib, Roderick MacLachlan, Jinal Manek, Enas A. Osman...",
+    "journal": "Small Methods",
+    "year": 2026,
+    "date": "2026-03-04",
+    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
+    "link": "https://doi.org/10.1002/smtd.202501072",
+    "citationCount": 0
+  },
+  {
+    "id": 5,
+    "title": "Retraction notice to \"New insight towards development of paclitaxel and docetaxel resistance in cancer cells: EMT as a novel molecular mechanism and therapeutic possibilities\" [Biomedicine & Pharmacotherapy 141 (2021) 111824].",
+    "authors": "M. Ashrafizadeh, Sepideh Mirzaei, F. Hashemi, A. Zarrabi, Amirhossein Zabolian...",
+    "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+    "year": 2026,
+    "date": "2026-03-01",
+    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
+    "link": "https://doi.org/10.1016/j.biopha.2026.119228",
+    "citationCount": 0
+  },
+  {
+    "id": 6,
+    "title": "Laser-engraved graphitized Kapton electrodes facilitate in situ X-ray absorption spectroscopy of electrocatalysts",
+    "authors": "A. Rakhsha, Ashkan Irannezhad, Navid Noor, Allison Suichies, H. Eraky...",
+    "journal": "Cell Reports Physical Science",
+    "year": 2026,
+    "date": "2026-03-01",
+    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
+    "link": "https://doi.org/10.1016/j.xcrp.2026.103194",
+    "citationCount": 0
+  },
+  {
+    "id": 7,
+    "title": "Detection of Viruses through a Steric Hindrance Aptamer Assay Coupled with Electrochemical Readout.",
+    "authors": "Ehsan Heydarian Dolatabadi, Payel Sen, Bal-Ram Adhikari, Zijie Zhang, Amir Ali Akhlaghi...",
+    "journal": "ACS Sensors",
+    "year": 2026,
+    "date": "2026-02-13",
+    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
+    "link": "https://doi.org/10.1021/acssensors.5c03582",
+    "citationCount": 0
+  },
+  {
+    "id": 8,
     "title": "Integrated hydrogel microneedle aptamer sensor for wearable insulin monitoring",
-    "authors": "Mayank Garg, Stephen Chupil, Jonathan L'Heureux-Haché, Rayhan A. Lal, Mahla Poudineh...",
+    "authors": "Mayank Garg, Stephen Chupil, Jonathan L'Heureux-Haché, Rayhan A. Lal, M. Poudineh...",
     "journal": "Nature Reviews Bioengineering",
     "year": 2025,
     "date": "2025-12-15",
     "image": "/researcharea1.webp",
     "link": "https://doi.org/10.1038/s44222-025-00394-3",
-    "citationCount": 0
+    "citationCount": 1
   },
   {
-    "id": 2,
+    "id": 9,
     "title": "Aptamer-Based Steric Hindrance Electrochemical Biosensor for Rapid Sars-Cov-2 Detection",
     "authors": "Ehsan Heydarian Dolatabadi, Leyla Soleymani, Yingfu Li, Payel Sen, Bal-Ram Adhikari...",
     "journal": "ECS Meeting Abstracts",
@@ -22,7 +99,7 @@
     "citationCount": 0
   },
   {
-    "id": 3,
+    "id": 10,
     "title": "Converting Commercial PCBs into Reliable Biosensors: A Study on the Impact of PCB Electrode Design and Pretreatment Techniques on DNA Deposition and Hybridization Efficiency",
     "authors": "Kulmanak Bajaj, Harmanjit Kaur, Mohammed Hasan, Fanxiao Liu, S. Sakib...",
     "journal": "ECS Meeting Abstracts",
@@ -33,7 +110,7 @@
     "citationCount": 0
   },
   {
-    "id": 4,
+    "id": 11,
     "title": "(Invited) Frequent Monitoring of Bio-Analytes Using Electrochemistry and Aptamers",
     "authors": "Leyla Soleymani",
     "journal": "ECS Meeting Abstracts",
@@ -44,9 +121,9 @@
     "citationCount": 0
   },
   {
-    "id": 5,
+    "id": 12,
     "title": "Controlling Steric Hindrance Effects in DNA Hybridization Electrochemical Assays",
-    "authors": "Jenna Harris, Leyla Soleymani",
+    "authors": "J. Harris, Leyla Soleymani",
     "journal": "ECS Meeting Abstracts",
     "year": 2025,
     "date": "2025-07-11",
@@ -55,7 +132,7 @@
     "citationCount": 0
   },
   {
-    "id": 6,
+    "id": 13,
     "title": "Laser-Engraved Kapton Electrodes for in-Situ/Operando XAS Characterization of Electrocatalysts for CO2 Reduction",
     "authors": "A. Rakhsha, Ashkan Irannezhad, Allison Suichies, Navid Noor, Robert Fathieh-Ngunjiri...",
     "journal": "ECS Meeting Abstracts",
@@ -66,7 +143,7 @@
     "citationCount": 0
   },
   {
-    "id": 7,
+    "id": 14,
     "title": "A Real-Time Enzyme-Linked Aptamer Assay (RT-eELAA) for Rapid and Sensitive Detection of Viral Antigens in Saliva Using Electrochemical Readout.",
     "authors": "Bal-Ram Adhikari, Qing Wang, Jiuxing Li, Payel Sen, Zijie Zhang...",
     "journal": "Analytical Chemistry",
@@ -74,21 +151,21 @@
     "date": "2025-06-13",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1021/acs.analchem.5c02555",
-    "citationCount": 1
+    "citationCount": 3
   },
   {
-    "id": 8,
+    "id": 15,
     "title": "Engineering Signal Interfaces for Enhanced Electrochemical Biosensing",
-    "authors": "Masoud Negahdary, Mayank Garg, Gerard L. Coté, Leyla Soleymani, Mahla Poudineh...",
+    "authors": "Masoud Negahdary, Mayank Garg, Gerard L. Coté, Leyla Soleymani, M. Poudineh...",
     "journal": "Trends in Analytical Chemistry (TrAC)",
     "year": 2025,
     "date": "2025-05-01",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1016/j.trac.2025.118310",
-    "citationCount": 1
+    "citationCount": 4
   },
   {
-    "id": 9,
+    "id": 16,
     "title": "Electrochemical detection of Legionella pneumophila using DNAzymes and under continuous flow in cooling tower water.",
     "authors": "Enas A. Osman, Survanshu Saxena, Shuwen Qian, Jonathan L'Heureux-Haché, Phoebe Li...",
     "journal": "Biosensors & bioelectronics",
@@ -96,10 +173,10 @@
     "date": "2025-03-03",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1016/j.bios.2025.117283",
-    "citationCount": 2
+    "citationCount": 5
   },
   {
-    "id": 10,
+    "id": 17,
     "title": "Design and simulation of biomimetic microfluidic designs to achieve uniform flow and DNA capture for high-throughput multiplexing.",
     "authors": "Enas A. Osman, Jonathan L'Heureux-Haché, Phoebe Li, L. Soleymani",
     "journal": "Lab on a Chip",
@@ -107,10 +184,10 @@
     "date": "2025-02-12",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1039/d4lc01023j",
-    "citationCount": 0
+    "citationCount": 1
   },
   {
-    "id": 11,
+    "id": 18,
     "title": "Dimeric DNA Aptamers for the Spike Protein of SARS‐CoV‐2 Derived from a Structured Library with Dual Random Domains",
     "authors": "Ryan Amini, Jian Ma, Zijie Zhang, Qing Wang, Jimmy Gu...",
     "journal": "Small Methods",
@@ -118,10 +195,10 @@
     "date": "2024-12-20",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1002/smtd.202401600",
-    "citationCount": 3
+    "citationCount": 5
   },
   {
-    "id": 12,
+    "id": 19,
     "title": "Tandem Gold/Copper Catalysis and Morphological Tuning via Wrinkling to Boost CO2 Electroreduction into C2+ Products",
     "authors": "Amirhossein Rakhsha, R. Eslami, Xiaoxuan Yang, Navid Noor, Fatma Ismail...",
     "journal": "Nano Energy",
@@ -129,12 +206,12 @@
     "date": "2024-11-01",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1016/j.nanoen.2024.110457",
-    "citationCount": 3
+    "citationCount": 7
   },
   {
-    "id": 13,
+    "id": 20,
     "title": "A HYDROGEL MICRONEEDLE INTEGRATED APTAMER-BASED ELECTROCHEMICAL SENSOR FOR GLUCOSE AND LACTATE MONITORING IN LIVE ANIMALS",
-    "authors": "Hanjiang Zheng, Fatemeh Bakhshandeh, Leyla Soleymani, Mahla Poudineh",
+    "authors": "Hanjiang Zheng, Fatemeh Bakhshandeh, Leyla Soleymani, M. Poudineh",
     "journal": "2024 MicroTAS Book of Abstracts",
     "year": 2024,
     "date": "2024-10-07",
@@ -143,7 +220,7 @@
     "citationCount": 0
   },
   {
-    "id": 14,
+    "id": 21,
     "title": "ELECTROCHEMICAL IMPEDANCE PROFILING FOR THE RAPID AND SENSITIVE ANALYSIS OF TUMOR-DERIVED EXOSOMES",
     "authors": "Youngeun Choi, Jonathan L'Heureux-Haché, Payel Sen, Leyla Soleymani",
     "journal": "2024 MicroTAS Book of Abstracts",
@@ -154,7 +231,7 @@
     "citationCount": 0
   },
   {
-    "id": 15,
+    "id": 22,
     "title": "ELECTROCHEMICAL LIQUID-INFUSED BIOSENSORS WITH NANO-STRUCTURED FEATURES FOR DETECTING BACTERIA IN COMPLEX MATRICES",
     "authors": "Sara Moetakef Imani, Enas A. Osman, Fatemeh Bakhshandeh, Shuwen Qian, S. Sakib...",
     "journal": "2024 MicroTAS Book of Abstracts",
@@ -165,18 +242,18 @@
     "citationCount": 0
   },
   {
-    "id": 16,
+    "id": 23,
     "title": "A Comparison of DNA-DNA Hybridization Kinetics in Complex Media on Planar and Nanostructured Electrodes.",
-    "authors": "Enas A. Osman, S. Sakib, Roderick Maclachlan, Survanshu Saxena, Amir Ali Akhlaghi...",
+    "authors": "Enas A. Osman, S. Sakib, Roderick MacLachlan, Survanshu Saxena, Amir Ali Akhlaghi...",
     "journal": "ACS Sensors",
     "year": 2024,
     "date": "2024-09-17",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1021/acssensors.4c00737",
-    "citationCount": 4
+    "citationCount": 5
   },
   {
-    "id": 17,
+    "id": 24,
     "title": "Fighting Mutations with Mutations: Evolutionarily Adapting a DNA Aptamer for High-Affinity Recognition of Mutated Spike Proteins of SARS-CoV-2.",
     "authors": "Qing Wang, Jiuxing Li, Zijie Zhang, Ryan Amini, Abigail Derdall...",
     "journal": "Angewandte Chemie",
@@ -184,10 +261,10 @@
     "date": "2024-09-10",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1002/anie.202415226",
-    "citationCount": 5
+    "citationCount": 7
   },
   {
-    "id": 18,
+    "id": 25,
     "title": "A Zwitterionic Anti-Fouling Coating Promotes Electrochemical Biosensing in Complex Media",
     "authors": "Survanshu Saxena, Yang Lu, Zijie Zhang, Yingfu Li, Leyla Soleymani...",
     "journal": "ECS Meeting Abstracts",
@@ -198,9 +275,9 @@
     "citationCount": 0
   },
   {
-    "id": 19,
+    "id": 26,
     "title": "Electrochemical Aptamer-Based Biosensors for Real-Time Monitoring of Biomarkers In Vivo",
-    "authors": "Leyla Soleymani, Fatemeh Bahkshandeh, Hanjiang Zheng, Mahla Poudineh",
+    "authors": "Leyla Soleymani, Fatemeh Bahkshandeh, Hanjiang Zheng, M. Poudineh",
     "journal": "ECS Meeting Abstracts",
     "year": 2024,
     "date": "2024-08-09",
@@ -209,7 +286,7 @@
     "citationCount": 0
   },
   {
-    "id": 20,
+    "id": 27,
     "title": "Wearable Aptalyzer Integrates Microneedle and Electrochemical Sensing for In Vivo Monitoring of Glucose and Lactate in Live Animals (Adv. Mater. 35/2024)",
     "authors": "Fatemeh Bakhshandeh, Hanjiang Zheng, Nicole Barra, S. Sadeghzadeh, I. Ausri...",
     "journal": "Advances in Materials",
@@ -217,21 +294,21 @@
     "date": "2024-08-01",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1002/adma.202470283",
-    "citationCount": 0
+    "citationCount": 2
   },
   {
-    "id": 21,
+    "id": 28,
     "title": "Smart Fabrics with Integrated Pathogen Detection, Repellency, and Antimicrobial Properties for Healthcare Applications",
-    "authors": "Noor Abu Jarad, Akansha Prasad, Sara Rahmani, Fereshteh Bayat, Mathura Thirugnanasampanthar...",
+    "authors": "Noor Abu Jarad, Akansha Prasad, Sara Rahmani, Fereshteh Bayat, M. Thirugnanasampanthar...",
     "journal": "Advanced Functional Materials",
     "year": 2024,
     "date": "2024-07-30",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1002/adfm.202403157",
-    "citationCount": 11
+    "citationCount": 14
   },
   {
-    "id": 22,
+    "id": 29,
     "title": "Zwitter-repel: An anti-fouling coating promoting electrochemical biosensing in biological fluids",
     "authors": "Survanshu Saxena, Yang Lu, Zijie Zhang, Yingfu Li, Leyla Soleymani...",
     "journal": "Chemical Engineering Journal",
@@ -239,10 +316,10 @@
     "date": "2024-06-01",
     "image": "researcharea3.jpg",
     "link": "https://doi.org/10.1016/j.cej.2024.153522",
-    "citationCount": 20
+    "citationCount": 26
   },
   {
-    "id": 23,
+    "id": 30,
     "title": "Wearable Aptalyzer Integrates Microneedle and Electrochemical Sensing for In Vivo Monitoring of Glucose and Lactate in Live Animals",
     "authors": "Fatemeh Bakhshandeh, Hanjiang Zheng, Nicole G Barra, S. Sadeghzadeh, I. Ausri...",
     "journal": "Advances in Materials",
@@ -250,10 +327,10 @@
     "date": "2024-05-16",
     "image": "pubmainfigure1.jpg",
     "link": "https://doi.org/10.1002/adma.202313743",
-    "citationCount": 69
+    "citationCount": 84
   },
   {
-    "id": 24,
+    "id": 31,
     "title": "High-Precision Viral Detection Using Electrochemical Kinetic Profiling of Aptamer-Antigen Recognition in Clinical Samples and Machine Learning.",
     "authors": "Payel Sen, Zijie Zhang, S. Sakib, Jimmy Gu, Wantong Li...",
     "journal": "Angewandte Chemie",
@@ -261,10 +338,10 @@
     "date": "2024-03-08",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1002/anie.202400413",
-    "citationCount": 24
+    "citationCount": 28
   },
   {
-    "id": 25,
+    "id": 32,
     "title": "Editors’ Choice—Challenges and Opportunities for Developing Electrochemical Biosensors with Commercialization Potential in the Point-of-Care Diagnostics Market",
     "authors": "Amir Ali Akhlaghi, Harmanjit Kaur, Bal-Ram Adhikari, L. Soleymani",
     "journal": "ECS Sensors Plus",
@@ -272,10 +349,10 @@
     "date": "2024-03-05",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1149/2754-2726/ad304a",
-    "citationCount": 39
+    "citationCount": 44
   },
   {
-    "id": 26,
+    "id": 33,
     "title": "Anti‐Fouling Polymer or Peptide‐Modified Electrochemical Biosensors for Improved Biosensing in Complex Media",
     "authors": "Survanshu Saxena, Payel Sen, Leyla Soleymani, T. Hoare",
     "journal": "Advanced Sensor Research",
@@ -283,10 +360,10 @@
     "date": "2024-02-05",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1002/adsr.202300170",
-    "citationCount": 21
+    "citationCount": 35
   },
   {
-    "id": 27,
+    "id": 34,
     "title": "Impact of palladium/palladium hydride conversion on electrochemical CO2 reduction via in-situ transmission electron microscopy and diffraction",
     "authors": "Ahmed M. Abdellah, Fatma Ismail, Oliver W. Siig, Jie Yang, Carmen M. Andrei...",
     "journal": "Nature Communications",
@@ -294,10 +371,10 @@
     "date": "2024-01-31",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1038/s41467-024-45096-3",
-    "citationCount": 43
+    "citationCount": 53
   },
   {
-    "id": 28,
+    "id": 35,
     "title": "(Invited) Real Time Monitoring of Target Binding for the Development of Clinical Diagnostic Tests",
     "authors": "Leyla Soleymani, Yingfu Li, Payel Sen, Zijie Zhang",
     "journal": "ECS Meeting Abstracts",
@@ -308,9 +385,9 @@
     "citationCount": 0
   },
   {
-    "id": 29,
+    "id": 36,
     "title": "Superomniphobic and Photoactive Surface Presents Antimicrobial Properties by Repelling and Killing Pathogens.",
-    "authors": "Roderick Maclachlan, Farhaan Kanji, S. Sakib, Shadman Khan, Cedric Pattyn...",
+    "authors": "Roderick MacLachlan, Farhaan Kanji, S. Sakib, Shadman Khan, C. Pattyn...",
     "journal": "ACS Applied Materials and Interfaces",
     "year": 2023,
     "date": "2023-11-17",
@@ -319,9 +396,9 @@
     "citationCount": 2
   },
   {
-    "id": 30,
+    "id": 37,
     "title": "Catecholate Dye-Assisted Decoration of Ag on TiO2 Nanoparticles for Detection of Cancer-Related MicroRNA Biomarkers on a Multiplexed Photoelectrochemical Platform",
-    "authors": "S. Sakib, Roderick Maclachlan, Yuxuan Gao, P. Mascher, Andy Knights...",
+    "authors": "S. Sakib, Roderick MacLachlan, Yuxuan Gao, P. Mascher, Andy Knights...",
     "journal": "ACS Applied Nano Materials",
     "year": 2023,
     "date": "2023-10-20",
@@ -330,7 +407,7 @@
     "citationCount": 2
   },
   {
-    "id": 31,
+    "id": 38,
     "title": "Integration of Photoelectrochemical Signal Transduction with RNA-Cleaving Dnazymes for Culture-Free Detection of Bacteria",
     "authors": "S. Sakib, Zijie Zhang, Enas A. Osman, Farhaan Kanji, Fatemeh Bahkshandeh...",
     "journal": "ECS Meeting Abstracts",
@@ -341,7 +418,7 @@
     "citationCount": 0
   },
   {
-    "id": 32,
+    "id": 39,
     "title": "Electrochemical Biosensors for Clinical Analysis",
     "authors": "Leyla Soleymani, Yingfu Li",
     "journal": "ECS Meeting Abstracts",
@@ -352,7 +429,7 @@
     "citationCount": 0
   },
   {
-    "id": 33,
+    "id": 40,
     "title": "Functional nucleic acid-based biosensors for virus detection",
     "authors": "Zijie Zhang, Bal-Ram Adhikari, Payel Sen, L. Soleymani, Yingfu Li",
     "journal": "Advanced Agrochem",
@@ -360,21 +437,21 @@
     "date": "2023-07-01",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1016/j.aac.2023.07.006",
-    "citationCount": 10
+    "citationCount": 11
   },
   {
-    "id": 34,
+    "id": 41,
     "title": "A universal bacterial sensor created by integrating a light modulating aptamer complex with photoelectrochemical signal readout.",
-    "authors": "Fatemeh Bakhshandeh, Sudip. K. Saha, Payel Sen, S. Sakib, Roderick Maclachlan...",
+    "authors": "Fatemeh Bakhshandeh, Sudip. K. Saha, Payel Sen, S. Sakib, Roderick MacLachlan...",
     "journal": "Biosensors & bioelectronics",
     "year": 2023,
     "date": "2023-05-01",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.2139/ssrn.4367490",
-    "citationCount": 12
+    "citationCount": 13
   },
   {
-    "id": 35,
+    "id": 42,
     "title": "Liquid NanoBiosensors Enable One‐Pot Electrochemical Detection of Bacteria in Complex Matrices",
     "authors": "Sara M. Imani, Enas A. Osman, Fatemeh Bakhshandeh, Shuwen Qian, S. Sakib...",
     "journal": "Advancement of science",
@@ -382,10 +459,10 @@
     "date": "2023-04-23",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1002/advs.202207223",
-    "citationCount": 15
+    "citationCount": 20
   },
   {
-    "id": 36,
+    "id": 43,
     "title": "Programming synthetic DNA molecules for building and breaking heterostructures between TiO2 nanomaterials for photoelectrochemical bacterial detection",
     "authors": "S. Sakib, Zijie Zhang, Enas A. Osman, Farhaan Kanji, Fatemeh Bakhshandeh...",
     "journal": "Nano Today",
@@ -393,10 +470,10 @@
     "date": "2023-04-01",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1016/j.nantod.2023.101783",
-    "citationCount": 11
+    "citationCount": 12
   },
   {
-    "id": 37,
+    "id": 44,
     "title": "Integrating Water Purification with Electrochemical Aptamer Sensing for Detecting SARS-CoV-2 in Wastewater",
     "authors": "Payel Sen, Zijie Zhang, Phoebe Li, Bal-Ram Adhikari, Tianyi Guo...",
     "journal": "ACS Sensors",
@@ -404,10 +481,10 @@
     "date": "2023-03-17",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1021/acssensors.2c02655",
-    "citationCount": 15
+    "citationCount": 17
   },
   {
-    "id": 38,
+    "id": 45,
     "title": "A Bifunctional Spray Coating Reduces Contamination on Surfaces by Repelling and Killing Pathogens.",
     "authors": "Noor Abu Jarad, K. Rachwalski, F. Bayat, Shadman Khan, A. Shakeri...",
     "journal": "ACS Applied Materials and Interfaces",
@@ -415,10 +492,10 @@
     "date": "2023-03-16",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1021/acsami.2c23119",
-    "citationCount": 14
+    "citationCount": 15
   },
   {
-    "id": 39,
+    "id": 46,
     "title": "Detection of Large Genomic RNA via DNAzyme-Mediated RNA Cleavage and Rolling Circle Amplification: SARS-CoV-2 as a Model.",
     "authors": "Jimmy Gu, Amal Mathai, Connor Nurmi, Dawn White, Gurpreet Panesar...",
     "journal": "Chemistry",
@@ -426,10 +503,10 @@
     "date": "2023-02-15",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1002/chem.202300075",
-    "citationCount": 5
+    "citationCount": 11
   },
   {
-    "id": 40,
+    "id": 47,
     "title": "An Omniphobic Spray Coating Created from Hierarchical Structures Prevents the Contamination of High-Touch Surfaces with Pathogens.",
     "authors": "Noor Abu Jarad, K. Rachwalski, F. Bayat, Shadman Khan, A. Shakeri...",
     "journal": "Small",
@@ -440,7 +517,7 @@
     "citationCount": 13
   },
   {
-    "id": 41,
+    "id": 48,
     "title": "Three on Three: Universal and High-Affinity Molecular Recognition of the Symmetric Homotrimeric Spike Protein of SARS-CoV-2 with a Symmetric Homotrimeric Aptamer",
     "authors": "Jiuxing Li, Zijie Zhang, Jimmy Gu, Ryan Amini, Alexandria G Mansfield...",
     "journal": "Journal of the American Chemical Society",
@@ -448,10 +525,10 @@
     "date": "2022-12-15",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1021/jacs.2c09870",
-    "citationCount": 30
+    "citationCount": 37
   },
   {
-    "id": 42,
+    "id": 49,
     "title": "Electrochemical DNAzyme-based biosensors for disease diagnosis.",
     "authors": "R. Pandey, Yang Lu, E. McConnell, Enas A. Osman, Alexander Scott...",
     "journal": "Biosensors & bioelectronics",
@@ -459,10 +536,10 @@
     "date": "2022-12-01",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1016/j.bios.2022.114983",
-    "citationCount": 39
+    "citationCount": 46
   },
   {
-    "id": 43,
+    "id": 50,
     "title": "(Invited) Developing Universal Sensing Strategies-Combining Functional Nucleic Acids with Photoelectrochemical and Electrochemical Signal Transduction",
     "authors": "L. Soleymani, R. Pandey, A. Victorious, Sudip. K. Saha, S. Sakib...",
     "journal": "ECS Meeting Abstracts",
@@ -473,7 +550,7 @@
     "citationCount": 0
   },
   {
-    "id": 44,
+    "id": 51,
     "title": "Development of Nucleic Acid-based Electrochemical Biosensors for Clinical Applications.",
     "authors": "Zijie Zhang, Payel Sen, Bal-Ram Adhikari, Yingfu Li, L. Soleymani",
     "journal": "Angewandte Chemie",
@@ -481,10 +558,10 @@
     "date": "2022-09-30",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1002/anie.202212496",
-    "citationCount": 69
+    "citationCount": 79
   },
   {
-    "id": 45,
+    "id": 52,
     "title": "Surface Modification of Three-Dimensional Au Coated Polymer Electrodes for Electrochemical Reduction of CO2",
     "authors": "Amirhossein Rakhsha, Fatma Ismail, A. Abdellah, L. Soleymani, Drew C. Higgins",
     "journal": "ECS Meeting Abstracts",
@@ -495,7 +572,7 @@
     "citationCount": 0
   },
   {
-    "id": 46,
+    "id": 53,
     "title": "Multifunctional Catecholate-Modified 3D TiO2 Nanostructures for Highly Sensitive Photoelectrochemical IL-6 Immunosensors",
     "authors": "S. Sakib, L. Soleymani, I. Zhitomirsky",
     "journal": "ECS Meeting Abstracts",
@@ -506,7 +583,7 @@
     "citationCount": 0
   },
   {
-    "id": 47,
+    "id": 54,
     "title": "(Invited) Development of New Strategies for Bringing Photoelectrochemical Biosensing to the Point-of-Need",
     "authors": "L. Soleymani, Sudip. K. Saha, A. Victorious, S. Sakib, I. Zhitomirsky",
     "journal": "ECS Meeting Abstracts",
@@ -517,18 +594,18 @@
     "citationCount": 0
   },
   {
-    "id": 48,
+    "id": 55,
     "title": "A DNA Barcode-Based Aptasensor Enables Rapid Testing of Porcine Epidemic Diarrhea Viruses in Swine Saliva Using Electrochemical Readout.",
-    "authors": "A. Victorious, Zijie Zhang, Dingran Chang, Roderick Maclachlan, R. Pandey...",
+    "authors": "A. Victorious, Zijie Zhang, Dingran Chang, Roderick MacLachlan, R. Pandey...",
     "journal": "Angewandte Chemie",
     "year": 2022,
     "date": "2022-05-13",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1002/anie.202204252",
-    "citationCount": 35
+    "citationCount": 39
   },
   {
-    "id": 49,
+    "id": 56,
     "title": "TiO2 Nanoparticles Co-Sensitized with Graphene Quantum Dots and Pyrocatechol Violet for Photoelectrochemical Detection of Cr(VI)",
     "authors": "Fatemeh Bakhshandeh, Sudip. K. Saha, S. Sakib, I. Zhitomirsky, L. Soleymani",
     "journal": "Journal of the Electrochemical Society",
@@ -539,9 +616,9 @@
     "citationCount": 6
   },
   {
-    "id": 50,
+    "id": 57,
     "title": "Correction to \"A Pathogen Repellent Plastic Wrap with Built-In Hierarchical Structuring Prevents the Contamination of Surfaces with Coronaviruses\".",
-    "authors": "Roderick Maclachlan, F. Vahedi, Sara M. Imani, A. Ashkar, T. Didar...",
+    "authors": "Roderick MacLachlan, F. Vahedi, Sara M. Imani, A. Ashkar, T. Didar...",
     "journal": "ACS Applied Materials and Interfaces",
     "year": 2022,
     "date": "2022-04-18",
@@ -550,7 +627,7 @@
     "citationCount": 0
   },
   {
-    "id": 51,
+    "id": 58,
     "title": "DNAzyme-Immobilizing Microgel Magnetic Beads Enable Rapid, Specific, Culture-Free, and Wash-Free Electrochemical Quantification of Bacteria in Untreated Urine.",
     "authors": "R. Pandey, Yang Lu, Enas A. Osman, Survanshu Saxena, Zijie Zhang...",
     "journal": "ACS Sensors",
@@ -558,10 +635,10 @@
     "date": "2022-04-06",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1021/acssensors.1c02440",
-    "citationCount": 30
+    "citationCount": 34
   },
   {
-    "id": 52,
+    "id": 59,
     "title": "A portable and smartphone-operated photoelectrochemical reader for point-of-care biosensing",
     "authors": "Alexander Scott, S. Sakib, Sudip. K. Saha, I. Zhitomirsky, L. Soleymani",
     "journal": "Electrochimica Acta",
@@ -572,7 +649,7 @@
     "citationCount": 9
   },
   {
-    "id": 53,
+    "id": 60,
     "title": "Fabrication of Superamphiphobic Surfaces via Spray Coating; a Review",
     "authors": "Noor Abu Jarad, Hiba Imran, Sara M. Imani, T. Didar, L. Soleymani",
     "journal": "Advanced Materials & Technologies",
@@ -580,10 +657,10 @@
     "date": "2022-03-18",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1002/admt.202101702",
-    "citationCount": 54
+    "citationCount": 60
   },
   {
-    "id": 54,
+    "id": 61,
     "title": "A Smartphone Operated Electrochemical Reader and Actuator that Streamlines the Operation of Electrochemical Biosensors",
     "authors": "Alexander Scott, R. Pandey, Survanshu Saxena, Enas A. Osman, Yingfu Li...",
     "journal": "ECS Sensors Plus",
@@ -594,9 +671,9 @@
     "citationCount": 37
   },
   {
-    "id": 55,
+    "id": 62,
     "title": "Pathogen-Repellent Plastic Warp with Built-In Hierarchical Structuring Prevents the Contamination of Surfaces with Coronaviruses",
-    "authors": "Roderick Maclachlan, F. Vahedi, Sara M. Imani, A. Ashkar, T. Didar...",
+    "authors": "Roderick MacLachlan, F. Vahedi, Sara M. Imani, A. Ashkar, T. Didar...",
     "journal": "ACS Applied Materials and Interfaces",
     "year": 2022,
     "date": "2022-02-28",
@@ -605,7 +682,7 @@
     "citationCount": 6
   },
   {
-    "id": 56,
+    "id": 63,
     "title": "Transparent and Highly Flexible Hierarchically Structured Polydimethylsiloxane Surfaces Suppress Bacterial Attachment and Thrombosis Under Static and Dynamic Conditions.",
     "authors": "Shadman Khan, Noor Abu Jarad, Liane Ladouceur, K. Rachwalski, Veronica A. Bot...",
     "journal": "Small",
@@ -616,7 +693,7 @@
     "citationCount": 9
   },
   {
-    "id": 57,
+    "id": 64,
     "title": "A Universal DNA Aptamer that Recognizes Spike Proteins of Diverse SARS‐CoV‐2 Variants of Concern",
     "authors": "Zijie Zhang, Jiuxing Li, Jimmy Gu, Ryan Amini, Hannah D Stacey...",
     "journal": "Chemistry",
@@ -627,7 +704,7 @@
     "citationCount": 5
   },
   {
-    "id": 58,
+    "id": 65,
     "title": "Front Cover: A Universal DNA Aptamer that Recognizes Spike Proteins of Diverse SARS‐CoV‐2 Variants of Concern (Chem. Eur. J. 15/2022)",
     "authors": "Zijie Zhang, Jiuxing Li, Jimmy Gu, Ryan Amini, Hannah D Stacey...",
     "journal": "Chemistry",
@@ -638,7 +715,7 @@
     "citationCount": 0
   },
   {
-    "id": 59,
+    "id": 66,
     "title": "Producing Fluorine- and Lubricant-Free Flexible Pathogen- and Blood-Repellent Surfaces Using Polysiloxane-Based Hierarchical Structures.",
     "authors": "Liane Ladouceur, A. Shakeri, Shadman Khan, Alejandra Rey Rincon, Esra Kasapgil...",
     "journal": "ACS Applied Materials and Interfaces",
@@ -649,7 +726,7 @@
     "citationCount": 13
   },
   {
-    "id": 60,
+    "id": 67,
     "title": "Hot Hole Direct Photoelectrochemistry of Au NPs: Interband versus Intraband hot carriers",
     "authors": "Sudip. K. Saha, Jie Yang, S. S. M. Masouleh, G. Botton, L. Soleymani",
     "journal": "Electrochimica Acta",
@@ -657,10 +734,10 @@
     "date": "2021-12-01",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1016/j.electacta.2021.139746",
-    "citationCount": 15
+    "citationCount": 17
   },
   {
-    "id": 61,
+    "id": 68,
     "title": "Two-Step Competitive Hybridization Assay: A Method for Analyzing Cancer-Related microRNA Embedded in Extracellular Vesicles.",
     "authors": "S. Saha, Susann Allelein, R. Pandey, P. Medina-Pérez, Enas A. Osman...",
     "journal": "Analytical Chemistry",
@@ -671,7 +748,7 @@
     "citationCount": 12
   },
   {
-    "id": 62,
+    "id": 69,
     "title": "Ionic liquid treatment for efficient sample preparation of hydrated bone for scanning electron microscopy.",
     "authors": "Liza‐Anastasia DiCecco, A. D’Elia, C. Quenneville, L. Soleymani, K. Grandfield",
     "journal": "Micron",
@@ -682,7 +759,7 @@
     "citationCount": 2
   },
   {
-    "id": 63,
+    "id": 70,
     "title": "Photoelectrochemical IL-6 Immunoassay Manufactured on Multifunctional Catecholate-Modified TiO2 Scaffolds.",
     "authors": "S. Sakib, Amin Hosseini, I. Zhitomirsky, L. Soleymani",
     "journal": "ACS Applied Materials and Interfaces",
@@ -690,10 +767,10 @@
     "date": "2021-10-19",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1021/acsami.1c18240",
-    "citationCount": 15
+    "citationCount": 16
   },
   {
-    "id": 64,
+    "id": 71,
     "title": "Surface Functionalization of Metal Oxide Semiconductors with Catechol Ligands for Enhancing Their Photoactivity",
     "authors": "S. Sakib, Fatemeh Bakhshandeh, Sudip. K. Saha, L. Soleymani, I. Zhitomirsky",
     "journal": "Solar RRL",
@@ -701,10 +778,10 @@
     "date": "2021-09-14",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1002/solr.202100512",
-    "citationCount": 22
+    "citationCount": 26
   },
   {
-    "id": 65,
+    "id": 72,
     "title": "Functional Nucleic Acids for Pathogenic Bacteria Detection.",
     "authors": "Dingran Chang, Sandy Zakaria, Sahar Esmaeili Samani, Yangyang Chang, C. Filipe...",
     "journal": "Accounts of Chemical Research",
@@ -712,10 +789,10 @@
     "date": "2021-09-03",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1021/acs.accounts.1c00355",
-    "citationCount": 78
+    "citationCount": 85
   },
   {
-    "id": 66,
+    "id": 73,
     "title": "High‐Affinity Dimeric Aptamers Enable the Rapid Electrochemical Detection of Wild‐Type and B.1.1.7 SARS‐CoV‐2 in Unprocessed Saliva",
     "authors": "Zijie Zhang, R. Pandey, Jiuxing Li, Jimmy Gu, Dawn White...",
     "journal": "Angewandte Chemie",
@@ -723,10 +800,10 @@
     "date": "2021-08-31",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1002/anie.202110819",
-    "citationCount": 121
+    "citationCount": 131
   },
   {
-    "id": 67,
+    "id": 74,
     "title": "Diverse high-affinity DNA aptamers for wild-type and B.1.1.7 SARS-CoV-2 spike proteins from a pre-structured DNA library",
     "authors": "Jiuxing Li, Zijie Zhang, Jimmy Gu, Hannah D Stacey, J. Ang...",
     "journal": "Nucleic Acids Research",
@@ -734,10 +811,10 @@
     "date": "2021-07-07",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1093/nar/gkab574",
-    "citationCount": 84
+    "citationCount": 87
   },
   {
-    "id": 68,
+    "id": 75,
     "title": "Integrating programmable DNAzymes with electrical readout for rapid and culture-free bacterial detection using a handheld platform",
     "authors": "R. Pandey, Dingran Chang, M. Smieja, T. Hoare, Yingfu Li...",
     "journal": "Nature Chemistry",
@@ -745,10 +822,10 @@
     "date": "2021-06-24",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1038/s41557-021-00718-x",
-    "citationCount": 82
+    "citationCount": 89
   },
   {
-    "id": 69,
+    "id": 76,
     "title": "Wrinkled Film Optics: From Infrared Electromagnetic Hotspots to Plasmon- Enhanced Electrochemistry",
     "authors": "S. Mousavi M, S. Saha, I. Bicket, S. Rosendahl, S. Read...",
     "journal": "Photonics North",
@@ -759,7 +836,7 @@
     "citationCount": 0
   },
   {
-    "id": 70,
+    "id": 77,
     "title": "Reagentless and Ultrasensitive Electrochemical Dnazyme Based Sensing Platform for Clinical Detection of Uropathogenic Escherichia coli",
     "authors": "R. Pandey, D. Chan, Yingfu Li, L. Soleymani",
     "journal": "ECS Meeting Abstracts",
@@ -770,7 +847,7 @@
     "citationCount": 0
   },
   {
-    "id": 71,
+    "id": 78,
     "title": "Modulating the photoelectrochemical response of titanium dioxide (TiO2) photoelectrodes using gold (Au) nanoparticles excited at different wavelengths",
     "authors": "Sudip. K. Saha, A. Victorious, L. Soleymani",
     "journal": "Journal",
@@ -778,21 +855,21 @@
     "date": "2021-03-17",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1016/J.ELECTACTA.2021.138154",
-    "citationCount": 20
+    "citationCount": 23
   },
   {
-    "id": 72,
+    "id": 79,
     "title": "Electron Microscopy Imaging Applications of Room Temperature Ionic Liquids in the Biological Field: A Review",
-    "authors": "Liza‐Anastasia DiCecco, A. D’Elia, Chelsea Miller, Kyla N. Sask, L. Soleymani...",
+    "authors": "Liza‐Anastasia DiCecco, A. D’Elia, C. Miller, Kyla N. Sask, L. Soleymani...",
     "journal": "ChemBioChem",
     "year": 2021,
     "date": "2021-03-09",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1002/cbic.202100041",
-    "citationCount": 8
+    "citationCount": 9
   },
   {
-    "id": 73,
+    "id": 80,
     "title": "Enhancing the sensitivity of photoelectrochemical DNA biosensing using plasmonic DNA barcodes and differential signal readout.",
     "authors": "A. Victorious, S. Saha, R. Pandey, L. Soleymani",
     "journal": "Angewandte Chemie",
@@ -803,7 +880,7 @@
     "citationCount": 66
   },
   {
-    "id": 74,
+    "id": 81,
     "title": "Electron energy-loss spectroscopy of surface plasmon activity in wrinkled gold structures.",
     "authors": "S. Mousavi M, I. Bicket, E. Bellido, L. Soleymani, G. Botton",
     "journal": "Journal of Chemical Physics",
@@ -814,18 +891,18 @@
     "citationCount": 7
   },
   {
-    "id": 75,
+    "id": 82,
     "title": "Hierarchical Structures, with Submillimeter Patterns, Micrometer Wrinkles, and Nanoscale Decorations, Suppress Biofouling and Enable Rapid Droplet Digitization.",
-    "authors": "Sara M. Imani, Roderick Maclachlan, Yuting Chan, A. Shakeri, L. Soleymani...",
+    "authors": "Sara M. Imani, Roderick MacLachlan, Yuting Chan, A. Shakeri, L. Soleymani...",
     "journal": "Small",
     "year": 2020,
     "date": "2020-11-23",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1002/smll.202004886",
-    "citationCount": 15
+    "citationCount": 16
   },
   {
-    "id": 76,
+    "id": 83,
     "title": "Roadmap to the Bioanalytical Testing of COVID-19: From Sample Collection to Disease Surveillance",
     "authors": "Amin Hosseini, R. Pandey, Enas A. Osman, A. Victorious, Feng Li...",
     "journal": "ACS Sensors",
@@ -833,21 +910,21 @@
     "date": "2020-10-30",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1021/acssensors.0c01377",
-    "citationCount": 36
+    "citationCount": 37
   },
   {
-    "id": 77,
+    "id": 84,
     "title": "Antimicrobial Nanomaterials and Coatings: Current Mechanisms and Future Perspectives to Control the Spread of Viruses Including SARS-CoV-2",
-    "authors": "Sara M. Imani, Liane Ladouceur, Terrel Marshall, Roderick Maclachlan, L. Soleymani...",
+    "authors": "Sara M. Imani, Liane Ladouceur, Terrel Marshall, Roderick MacLachlan, L. Soleymani...",
     "journal": "ACS Nano",
     "year": 2020,
     "date": "2020-10-09",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1021/acsnano.0c05937",
-    "citationCount": 337
+    "citationCount": 339
   },
   {
-    "id": 78,
+    "id": 85,
     "title": "Dynamic Bio-Barcode Assay Enables Electrochemical Detection of a Cancer Biomarker in Undiluted Human Plasma: A Sample-In-Answer-Out Approach.",
     "authors": "Sarah M. Traynor, G. Wang, R. Pandey, Feng Li, L. Soleymani",
     "journal": "Angewandte Chemie",
@@ -855,10 +932,10 @@
     "date": "2020-10-07",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1002/anie.202009664",
-    "citationCount": 35
+    "citationCount": 36
   },
   {
-    "id": 79,
+    "id": 86,
     "title": "Differential Photoelectrochemical Biosensing Using DNA Nanospacers to Modulate Electron Transfer between Metal and Semiconductor Nanoparticles.",
     "authors": "S. Saha, A. Victorious, R. Pandey, A. Clifford, I. Zhitomirsky...",
     "journal": "ACS Applied Materials and Interfaces",
@@ -869,7 +946,7 @@
     "citationCount": 11
   },
   {
-    "id": 80,
+    "id": 87,
     "title": "Author Correction: The Use of Motion Analysis as Particle Biomarkers in Lensless Optofluidic Projection Imaging for Point of Care Urine Analysis",
     "authors": "Jessica Kun, Marek Śmieja, Bo Xiong, L. Soleymani, Q. Fang",
     "journal": "Scientific Reports",
@@ -880,7 +957,7 @@
     "citationCount": 0
   },
   {
-    "id": 81,
+    "id": 88,
     "title": "Ultrasensitive Electrochemical Dnazyme Based Sensing Platform for Clinical Detection of Uropathogenic Escherichia coli",
     "authors": "R. Pandey, Chang Dingran, Yingfu Li, L. Soleymani",
     "journal": "Journal",
@@ -891,7 +968,7 @@
     "citationCount": 0
   },
   {
-    "id": 82,
+    "id": 89,
     "title": "WITHDRAWN: Differential Multiplexed Signalling Strategy Enables Ultrasensitive Photoelectrochemical DNA Detection Via Direct Electron Transfer between Plasmonic and Semiconductive Nanoparticles",
     "authors": "A. Victorious, S. Saha, L. Soleymani",
     "journal": "Journal",
@@ -902,7 +979,7 @@
     "citationCount": 0
   },
   {
-    "id": 83,
+    "id": 90,
     "title": "WITHDRAWN: Utilizing DNA Spacer to Design Differential Photoelectrochemical Biosensor",
     "authors": "S. Saha, A. Victorious, R. Pandey, L. Soleymani",
     "journal": "Journal",
@@ -913,7 +990,7 @@
     "citationCount": 0
   },
   {
-    "id": 84,
+    "id": 91,
     "title": "Investigating Catechol Surface Modification of TiO2 for the Development of High Performance Photoelectrochemical Biosensors",
     "authors": "S. Sakib, L. Soleymani, I. Zhitomirsky",
     "journal": "Journal",
@@ -924,7 +1001,7 @@
     "citationCount": 0
   },
   {
-    "id": 85,
+    "id": 92,
     "title": "(Invited) Barcode-Based Biorecognition for Electrochemical and Photoelectrochemical Biosensing",
     "authors": "L. Soleymani, R. Pandey, Sarah M. Traynor, A. Victorious, S. Saha",
     "journal": "ECS Meeting Abstracts",
@@ -935,7 +1012,7 @@
     "citationCount": 0
   },
   {
-    "id": 86,
+    "id": 93,
     "title": "Surface modification of TiO\n 2\n for photoelectrochemical DNA biosensors",
     "authors": "S. Sakib, R. Pandey, L. Soleymani",
     "journal": "Journal",
@@ -943,32 +1020,32 @@
     "date": "2020-02-29",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1002/mds3.10066",
-    "citationCount": 19
+    "citationCount": 21
   },
   {
-    "id": 87,
+    "id": 94,
     "title": "Review—Recent Advances in Electrochemical Detection of Prostate Specific Antigen (PSA) in Clinically-Relevant Samples",
-    "authors": "Sarah M. Traynor, R. Pandey, Roderick Maclachlan, Amin Hosseini, T. Didar...",
+    "authors": "Sarah M. Traynor, R. Pandey, Roderick MacLachlan, Amin Hosseini, T. Didar...",
     "journal": "Journal of the Electrochemical Society",
     "year": 2020,
     "date": "2020-01-28",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1149/1945-7111/ab69fd",
-    "citationCount": 39
+    "citationCount": 41
   },
   {
-    "id": 88,
+    "id": 95,
     "title": "Flexible Hierarchical Wraps Repel Drug-Resistant Gram-Negative and Positive Bacteria.",
-    "authors": "Sara M. Imani, Roderick Maclachlan, K. Rachwalski, Yuting Chan, Bryan E. J. Lee...",
+    "authors": "Sara M. Imani, Roderick MacLachlan, K. Rachwalski, Yuting Chan, Bryan E. J. Lee...",
     "journal": "ACS Nano",
     "year": 2019,
     "date": "2019-12-13",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1021/acsnano.9b06287",
-    "citationCount": 44
+    "citationCount": 47
   },
   {
-    "id": 89,
+    "id": 96,
     "title": "The Use of Motion Analysis as Particle Biomarkers in Lensless Optofluidic Projection Imaging for Point of Care Urine Analysis",
     "authors": "Jessica Kun, M. Smieja, Bo Xiong, L. Soleymani, Q. Fang",
     "journal": "Scientific Reports",
@@ -979,7 +1056,7 @@
     "citationCount": 12
   },
   {
-    "id": 90,
+    "id": 97,
     "title": "Affinity-Based Detection of Biomolecules Using Photo-Electrochemical Readout",
     "authors": "A. Victorious, S. Saha, R. Pandey, T. Didar, L. Soleymani",
     "journal": "Frontiers in Chemistry",
@@ -987,10 +1064,10 @@
     "date": "2019-09-11",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.3389/fchem.2019.00617",
-    "citationCount": 36
+    "citationCount": 37
   },
   {
-    "id": 91,
+    "id": 98,
     "title": "Biofunctionalization of Glass‐ and Paper‐Based Microfluidic Devices: A Review",
     "authors": "A. Shakeri, Noor Abu Jarad, Ashlyn Leung, L. Soleymani, T. Didar",
     "journal": "Advanced Materials Interfaces",
@@ -998,10 +1075,10 @@
     "date": "2019-08-07",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1002/admi.201900940",
-    "citationCount": 59
+    "citationCount": 62
   },
   {
-    "id": 92,
+    "id": 99,
     "title": "Liquid-Infused Surfaces: A Review of Theory, Design, and Applications.",
     "authors": "Martin Villegas, Yuxi Zhang, Noor Abu Jarad, L. Soleymani, T. Didar",
     "journal": "ACS Nano",
@@ -1009,10 +1086,10 @@
     "date": "2019-08-02",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1021/acsnano.9b04129",
-    "citationCount": 378
+    "citationCount": 389
   },
   {
-    "id": 93,
+    "id": 100,
     "title": "Deposition and morphological evolution of nanostructured palladium during potential cycling: a liquid-cell TEM study.",
     "authors": "Jie Yang, S. Prabhudev, Carmen M. Andrei, G. Botton, L. Soleymani",
     "journal": "Chemical Communications",
@@ -1023,7 +1100,7 @@
     "citationCount": 3
   },
   {
-    "id": 94,
+    "id": 101,
     "title": "Detection of trichomonal vaginalis through lensless optofluidic microscopy",
     "authors": "Jessica Kun, M. Smieja, L. Soleymani, Q. Fang",
     "journal": "European Conference on Biomedical Optics",
@@ -1034,7 +1111,7 @@
     "citationCount": 0
   },
   {
-    "id": 95,
+    "id": 102,
     "title": "Integrating TiO2 Nanoparticles within a Catecholic Polymeric Network Enhances the Photoelectrochemical Response of Biosensors",
     "authors": "A. Victorious, A. Clifford, S. Saha, I. Zhitomirsky, L. Soleymani",
     "journal": "Journal of Physical Chemistry C",
@@ -1042,10 +1119,10 @@
     "date": "2019-06-20",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1021/ACS.JPCC.9B02740",
-    "citationCount": 20
+    "citationCount": 21
   },
   {
-    "id": 96,
+    "id": 103,
     "title": "Solution-processed wrinkled electrodes enable the development of stretchable electrochemical biosensors.",
     "authors": "Yuting Chan, Marta Skreta, H. McPhee, S. Saha, Ryan Deus...",
     "journal": "In Analysis",
@@ -1056,7 +1133,7 @@
     "citationCount": 19
   },
   {
-    "id": 97,
+    "id": 104,
     "title": "Liquid Cell Transmission Electron Microscopy Sheds Light on The Mechanism of Palladium Electrodeposition.",
     "authors": "Jie Yang, Carmen M. Andrei, Yuting Chan, B. L. Mehdi, N. Browning...",
     "journal": "Langmuir",
@@ -1064,10 +1141,10 @@
     "date": "2019-01-15",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1021/acs.langmuir.8b02846",
-    "citationCount": 24
+    "citationCount": 25
   },
   {
-    "id": 98,
+    "id": 105,
     "title": "Correction: Solution-processed wrinkled electrodes enable the development of stretchable electrochemical biosensors.",
     "authors": "Yuting Chan, Marta Skreta, H. McPhee, S. Saha, Ryan Deus...",
     "journal": "In Analysis",
@@ -1078,7 +1155,7 @@
     "citationCount": 0
   },
   {
-    "id": 99,
+    "id": 106,
     "title": "Biomineralization of calcium phosphate revealed by in situ liquid-phase electron microscopy",
     "authors": "Xiaoyue Wang, Jie Yang, Carmen M. Andrei, L. Soleymani, K. Grandfield",
     "journal": "Communications Chemistry",
@@ -1086,10 +1163,10 @@
     "date": "2018-11-13",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1038/s42004-018-0081-4",
-    "citationCount": 48
+    "citationCount": 51
   },
   {
-    "id": 100,
+    "id": 107,
     "title": "Enhancing the Photoelectrochemical Response of DNA Biosensors Using Wrinkled Interfaces.",
     "authors": "S. Saha, Yuting Chan, L. Soleymani",
     "journal": "ACS Applied Materials and Interfaces",
@@ -1097,10 +1174,10 @@
     "date": "2018-09-07",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1021/acsami.8b12286",
-    "citationCount": 32
+    "citationCount": 33
   },
   {
-    "id": 101,
+    "id": 108,
     "title": "Self-Assembled Functional DNA Superstructures as High-Density and Versatile Recognition Elements for Printed Paper Sensors.",
     "authors": "Meng Liu, Qiang Zhang, Balamurali Kannan, G. Botton, Jie Yang...",
     "journal": "Angewandte Chemie",
@@ -1111,7 +1188,7 @@
     "citationCount": 63
   },
   {
-    "id": 102,
+    "id": 109,
     "title": "Conductive Electrochemically Active Lubricant‐Infused Nanostructured Surfaces Attenuate Coagulation and Enable Friction‐Less Droplet Manipulation",
     "authors": "Amin Hosseini, Martin Villegas, Jie Yang, Maryam Badv, J. Weitz...",
     "journal": "Advanced Materials Interfaces",
@@ -1122,9 +1199,9 @@
     "citationCount": 44
   },
   {
-    "id": 103,
+    "id": 110,
     "title": "Method for Electrochemical Detection of Brain Derived Neurotrophic Factor (BDNF) in Plasma.",
-    "authors": "Marina Bockaj, Barnabas C. Fung, Michael Tsoulis, Lauren (Warren) Foster, Leyla Soleymani",
+    "authors": "Marina Bockaj, Barnabas C. Fung, M. Tsoulis, L. Foster, Leyla Soleymani",
     "journal": "Analytical Chemistry",
     "year": 2018,
     "date": "2018-06-22",
@@ -1133,7 +1210,7 @@
     "citationCount": 30
   },
   {
-    "id": 104,
+    "id": 111,
     "title": "Biosensors 1: Fundamentals",
     "authors": "L. Soleymani",
     "journal": "Journal",
@@ -1144,7 +1221,7 @@
     "citationCount": 0
   },
   {
-    "id": 105,
+    "id": 112,
     "title": "Enrichment of magnetic particles using temperature and magnetic field gradients induced by benchtop fabricated micro-electromagnets.",
     "authors": "A. Hosseini, D. Philpott, L. Soleymani",
     "journal": "Lab on a Chip",
@@ -1155,9 +1232,9 @@
     "citationCount": 4
   },
   {
-    "id": 106,
+    "id": 113,
     "title": "Relating Redox Properties of Polyvinylamine-g-TEMPO/Laccase Hydrogel Complexes to Cellulose Oxidation.",
-    "authors": "Q. Fu, Alexander Sutherland, Emil Gustafsson, M. Monsur Ali, L. Soleymani...",
+    "authors": "Q. Fu, Alexander Sutherland, Emil Gustafsson, M. M. Ali, L. Soleymani...",
     "journal": "Langmuir",
     "year": 2017,
     "date": "2017-08-03",
@@ -1166,7 +1243,7 @@
     "citationCount": 10
   },
   {
-    "id": 107,
+    "id": 114,
     "title": "Nanoporous and wrinkled electrodes enhance the sensitivity of glucose biosensors",
     "authors": "R. C. Adams-McGavin, Yuting Chan, Christine M. Gabardo, Jie Yang, Marta Skreta...",
     "journal": "Journal",
@@ -1177,7 +1254,7 @@
     "citationCount": 23
   },
   {
-    "id": 108,
+    "id": 115,
     "title": "Application of Nanomaterials to Catalysis and Energy",
     "authors": "L. Soleymani",
     "journal": "Journal",
@@ -1188,7 +1265,7 @@
     "citationCount": 0
   },
   {
-    "id": 109,
+    "id": 116,
     "title": "All-Solution-Processing of Nanoporous and Wrinkled Electrodes on Polymer Substrates for Use in Electrochemical Biosensing",
     "authors": "Christine M. Gabardo, Chris Adams-McGavin, Barnabas C. Fung, Jie Yang, L. Soleymani",
     "journal": "Journal",
@@ -1199,7 +1276,7 @@
     "citationCount": 0
   },
   {
-    "id": 110,
+    "id": 117,
     "title": "Mechanistic Challenges and Advantages of Biosensor Miniaturization into the Nanoscale.",
     "authors": "L. Soleymani, Feng Li",
     "journal": "ACS Sensors",
@@ -1207,10 +1284,10 @@
     "date": "2017-04-03",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1021/acssensors.7b00069",
-    "citationCount": 119
+    "citationCount": 131
   },
   {
-    "id": 111,
+    "id": 118,
     "title": "In Liquid Observation and Quantification of Nucleation and Growth of Gold Nanostructures Using in Situ Transmission Electron Microscopy",
     "authors": "Jie Yang, Carmen M. Andrei, G. Botton, L. Soleymani",
     "journal": "Journal",
@@ -1221,7 +1298,7 @@
     "citationCount": 17
   },
   {
-    "id": 112,
+    "id": 119,
     "title": "Rapid prototyping of all-solution-processed multi-lengthscale electrodes using polymer-induced thin film wrinkling",
     "authors": "Christine M. Gabardo, R. C. Adams-McGavin, Barnabas C. Fung, Eric Mahoney, Q. Fang...",
     "journal": "Scientific Reports",
@@ -1229,10 +1306,10 @@
     "date": "2017-02-13",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1038/srep42543",
-    "citationCount": 26
+    "citationCount": 27
   },
   {
-    "id": 113,
+    "id": 120,
     "title": "Redox Properties of Polyvinylamine-g-TEMPO in Multilayer Films with Sodium Poly(styrenesulfonate).",
     "authors": "Q. Fu, Igor Zoudanov, Emil Gustafsson, Dong-Woon Yang, L. Soleymani...",
     "journal": "ACS Applied Materials and Interfaces",
@@ -1243,7 +1320,7 @@
     "citationCount": 5
   },
   {
-    "id": 114,
+    "id": 121,
     "title": "Programmable Wrinkling of Self-Assembled Nanoparticle Films on Shape Memory Polymers.",
     "authors": "Christine M. Gabardo, Jie Yang, N. J. Smith, R. C. Adams-McGavin, L. Soleymani",
     "journal": "ACS Nano",
@@ -1251,10 +1328,10 @@
     "date": "2016-09-13",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1021/acsnano.6b04584",
-    "citationCount": 56
+    "citationCount": 57
   },
   {
-    "id": 115,
+    "id": 122,
     "title": "Biomineralization of Hydroxyapatite Revealed by in situ Electron Microscopy",
     "authors": "Xiaoyue Wang, Jie Yang, Carmen M. Andrei, L. Soleymani, K. Grandfield",
     "journal": "Microscopy and Microanalysis",
@@ -1265,7 +1342,7 @@
     "citationCount": 2
   },
   {
-    "id": 116,
+    "id": 123,
     "title": "Deposition, patterning, and utility of conductive materials for the rapid prototyping of chemical and bioanalytical devices.",
     "authors": "Christine M. Gabardo, Leyla Soleymani",
     "journal": "In Analysis",
@@ -1276,7 +1353,7 @@
     "citationCount": 14
   },
   {
-    "id": 117,
+    "id": 124,
     "title": "Invited) A Versatile Fabrication Platform for Rapid Prototyping of Biosensors",
     "authors": "L. Soleymani",
     "journal": "Journal",
@@ -1287,7 +1364,7 @@
     "citationCount": 0
   },
   {
-    "id": 118,
+    "id": 125,
     "title": "A New Wrinkle in Biosensors: Wrinkled electrodes could be a breakthrough for lab-on-a-chip devices.",
     "authors": "Christine M. Gabardo, Amin Hosseini, L. Soleymani",
     "journal": "IEEE Nanotechnology Magazine",
@@ -1298,7 +1375,7 @@
     "citationCount": 6
   },
   {
-    "id": 119,
+    "id": 126,
     "title": "All-Solution-Processed Wrinkled Gold Nanoparticles As Sensors",
     "authors": "Christine M. Gabardo, Jie Yang, N. J. Smith, Chris Adams-McGavin, L. Soleymani",
     "journal": "Journal",
@@ -1309,7 +1386,7 @@
     "citationCount": 0
   },
   {
-    "id": 120,
+    "id": 127,
     "title": "In-situ Transmission Electron Microscopy for Characterizing Electrochemical Deposition of Nanostructured Materials",
     "authors": "Jie Yang, Carmen M. Andrei, G. Botton, L. Soleymani",
     "journal": "Journal",
@@ -1317,303 +1394,6 @@
     "date": "2016-01-01",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://www.semanticscholar.org/paper/35b19b2395a426d00d3beb571949bac681f4ab91",
-    "citationCount": 0
-  },
-  {
-    "id": 121,
-    "title": "In-situ Transmission Electron Microscopy to Probe the Electrochemical Deposition of Nanostructured Materials",
-    "authors": "Jie Yang, Carmen M. Andrei, G. Botton, L. Soleymani",
-    "journal": "Microscopy and Microanalysis",
-    "year": 2015,
-    "date": "2015-08-01",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1017/S143192761500478X",
-    "citationCount": 0
-  },
-  {
-    "id": 122,
-    "title": "Rapid prototyping of microfluidic devices with integrated wrinkled gold micro-/nano textured electrodes for electrochemical analysis.",
-    "authors": "Christine M. Gabardo, R. C. Adams-McGavin, Oriana M. Vanderfleet, Leyla Soleymani",
-    "journal": "In Analysis",
-    "year": 2015,
-    "date": "2015-07-27",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1039/c5an00774g",
-    "citationCount": 10
-  },
-  {
-    "id": 123,
-    "title": "Developing Fully-Integrated Biosensing Systems on the Laboratory Benchtop",
-    "authors": "L. Soleymani, Christine M. Gabardo, Amin Hosseini, Stephen Woo, Chris Adams-McGavin...",
-    "journal": "Journal",
-    "year": 2015,
-    "date": "2015-07-07",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1149/ma2015-02/45/1779",
-    "citationCount": 0
-  },
-  {
-    "id": 124,
-    "title": "Rapid Prototyping of Electrochemical DNA Detection Sensors",
-    "authors": "Stephen Woo, Christine M. Gabardo, L. Soleymani",
-    "journal": "Journal",
-    "year": 2015,
-    "date": "2015-04-29",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1149/ma2015-01/40/2103",
-    "citationCount": 0
-  },
-  {
-    "id": 125,
-    "title": "Rapid Prototyping of Multi-Scale Electrodes on Polymer Surfaces",
-    "authors": "Christine M. Gabardo, L. Soleymani",
-    "journal": "Journal",
-    "year": 2015,
-    "date": "2015-04-29",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1149/ma2015-01/14/1138",
-    "citationCount": 0
-  },
-  {
-    "id": 126,
-    "title": "Rapidly prototyped multi-scale electrodes to minimize the voltage requirements for bacterial cell lysis.",
-    "authors": "Christine M. Gabardo, Aaron Kwong, L. Soleymani",
-    "journal": "In Analysis",
-    "year": 2015,
-    "date": "2015-02-16",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1039/c4an02150a",
-    "citationCount": 21
-  },
-  {
-    "id": 127,
-    "title": "Fabrication of Hemispherical and Gradient-Index ZnO Nanostructures and Their Integration into Microsystems",
-    "authors": "Joey Pavlovski, S. Myrskog, P. Dufour, Christine M. Gabardo, L. Soleymani",
-    "journal": "Journal",
-    "year": 2015,
-    "date": "2015-01-01",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1149/2.0071510JES",
-    "citationCount": 2
-  },
-  {
-    "id": 128,
-    "title": "Prototyping of wrinkled nano-/microstructured electrodes for electrochemical DNA detection.",
-    "authors": "Stephen Woo, Christine M. Gabardo, L. Soleymani",
-    "journal": "Analytical Chemistry",
-    "year": 2014,
-    "date": "2014-11-26",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1021/ac5036296",
-    "citationCount": 37
-  },
-  {
-    "id": 129,
-    "title": "In Situ Liquid Cell TEM Study of Morphological Evolution and Degradation of Pt–Fe Nanocatalysts During Potential Cycling",
-    "authors": "G. Zhu, S. Prabhudev, Jie Yang, Christine M. Gabardo, G. Botton...",
-    "journal": "Journal",
-    "year": 2014,
-    "date": "2014-09-11",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1021/JP506857B",
-    "citationCount": 118
-  },
-  {
-    "id": 130,
-    "title": "Benchtop fabrication of multi-scale micro-electromagnets for capturing magnetic particles",
-    "authors": "Amin Hosseini, L. Soleymani",
-    "journal": "Journal",
-    "year": 2014,
-    "date": "2014-08-19",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1063/1.4893564",
-    "citationCount": 10
-  },
-  {
-    "id": 131,
-    "title": "Rapid prototyping of a miniaturized Electrospinning setup for the production of polymer nanofibers",
-    "authors": "Oriana M. Vanderfleet, Christine M. Gabardo, Fahim M. Naeem, J. Moran-Mirabal, L. Soleymani",
-    "journal": "Journal",
-    "year": 2014,
-    "date": "2014-08-15",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1002/APP.40629",
-    "citationCount": 4
-  },
-  {
-    "id": 132,
-    "title": "Nanostructured CMOS Wireless Ultra-Wideband Label-Free PCR-Free DNA Analysis SoC",
-    "authors": "Hamed Mazhab-Jafari, K. Abdelhalim, L. Soleymani, E. Sargent, S. Kelley...",
-    "journal": "IEEE Journal of Solid-State Circuits",
-    "year": 2014,
-    "date": "2014-04-11",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1109/JSSC.2014.2312571",
-    "citationCount": 55
-  },
-  {
-    "id": 133,
-    "title": "Bottom-Up Top-Down Fabrication of Structurally and Functionally Tunable Hierarchical Palladium Materials",
-    "authors": "H. Hsu, P. Selvaganapathy, L. Soleymani",
-    "journal": "Journal",
-    "year": 2014,
-    "date": "2014-01-01",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1149/2.011407JES",
-    "citationCount": 10
-  },
-  {
-    "id": 134,
-    "title": "Electrodes: Bench‐Top Fabrication of Hierarchically Structured High‐Surface‐Area Electrodes (Adv. Funct. Mater. 24/2013)",
-    "authors": "Christine M. Gabardo, Yujie Zhu, L. Soleymani, J. Moran-Mirabal",
-    "journal": "Journal",
-    "year": 2013,
-    "date": "2013-06-25",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1002/ADFM.201370118",
-    "citationCount": 2
-  },
-  {
-    "id": 135,
-    "title": "Bench‐Top Fabrication of Hierarchically Structured High‐Surface‐Area Electrodes",
-    "authors": "Christine M. Gabardo, Yujie Zhu, L. Soleymani, J. Moran-Mirabal",
-    "journal": "Journal",
-    "year": 2013,
-    "date": "2013-06-25",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1002/adfm.201203220",
-    "citationCount": 71
-  },
-  {
-    "id": 136,
-    "title": "A new electronic assay enables ultrasensitive detection of diverse biological analytes—nucleic acids, proteins and small molecules—on a single integrated circuit",
-    "authors": "L. Soleymani",
-    "journal": "Journal",
-    "year": 2012,
-    "date": "2012-12-01",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1557/MRC.2012.24",
-    "citationCount": 0
-  },
-  {
-    "id": 137,
-    "title": "16-Channel CMOS Impedance Spectroscopy DNA Analyzer With Dual-Slope Multiplying ADCs",
-    "authors": "Hamed Mazhab-Jafari, L. Soleymani, R. Genov",
-    "journal": "IEEE Transactions on Biomedical Circuits and Systems",
-    "year": 2012,
-    "date": "2012-11-20",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1109/TBCAS.2012.2226334",
-    "citationCount": 101
-  },
-  {
-    "id": 138,
-    "title": "Nanostructured CMOS wireless ultra-wideband label-free DNA analysis SoC",
-    "authors": "Hamed Mazhab-Jafari, L. Soleymani, K. Abdelhalim, E. Sargent, S. Kelley...",
-    "journal": "Symposium on VLSI Circuits",
-    "year": 2012,
-    "date": "2012-06-13",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1109/VLSIC.2012.6243820",
-    "citationCount": 9
-  },
-  {
-    "id": 139,
-    "title": "Femtosecond laser nanostructuring for femtosensitive DNA detection.",
-    "authors": "M. Alubaidy, L. Soleymani, K. Venkatakrishnan, B. Tan",
-    "journal": "Biosensors & bioelectronics",
-    "year": 2012,
-    "date": "2012-03-15",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1016/j.bios.2011.12.023",
-    "citationCount": 7
-  },
-  {
-    "id": 140,
-    "title": "Ultra-sensitive Detection of Nucleic Acids using an Electronic Chip",
-    "authors": "L. Soleymani",
-    "journal": "Journal",
-    "year": 2011,
-    "date": "2011-03-28",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://www.semanticscholar.org/paper/f3f2250824021f4ab19d58783c9d371d01bffe79",
-    "citationCount": 0
-  },
-  {
-    "id": 141,
-    "title": "Hierarchical nanotextured microelectrodes overcome the molecular transport barrier to achieve rapid, direct bacterial detection.",
-    "authors": "L. Soleymani, Zhichao Fang, B. Lam, X. Bin, E. Vasilyeva...",
-    "journal": "ACS Nano",
-    "year": 2011,
-    "date": "2011-03-23",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1021/nn200586s",
-    "citationCount": 133
-  },
-  {
-    "id": 142,
-    "title": "Programming the detection limits of biosensors through controlled nanostructuring.",
-    "authors": "L. Soleymani, Zhichao Fang, E. Sargent, S. Kelley",
-    "journal": "Nature Nanotechnology",
-    "year": 2009,
-    "date": "2009-12-01",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1038/nnano.2009.276",
-    "citationCount": 371
-  },
-  {
-    "id": 143,
-    "title": "Nanostructuring of patterned microelectrodes to enhance the sensitivity of electrochemical nucleic acids detection.",
-    "authors": "L. Soleymani, Zhichao Fang, Xuping Sun, Hong Yang, Bradford J. Taft...",
-    "journal": "Angewandte Chemie",
-    "year": 2009,
-    "date": "2009-10-26",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1002/anie.200902439",
-    "citationCount": 93
-  },
-  {
-    "id": 144,
-    "title": "Direct, electronic microRNA detection for the rapid determination of differential expression profiles.",
-    "authors": "Hong Yang, A. Hui, George Pampalakis, L. Soleymani, Fei-Fei Liu...",
-    "journal": "Angewandte Chemie",
-    "year": 2009,
-    "date": "2009-10-26",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1002/anie.200902577",
-    "citationCount": 130
-  },
-  {
-    "id": 145,
-    "title": "Integrated nanostructures for direct detection of DNA at attomolar concentrations",
-    "authors": "L. Soleymani, Zhichao Fang, S. Kelley, E. Sargent",
-    "journal": "Journal",
-    "year": 2009,
-    "date": "2009-10-05",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1063/1.3226103",
-    "citationCount": 21
-  },
-  {
-    "id": 146,
-    "title": "Direct profiling of cancer biomarkers in tumor tissue using a multiplexed nanostructured microelectrode integrated circuit.",
-    "authors": "Zhichao Fang, L. Soleymani, G. Pampalakis, M. Yoshimoto, J. Squire...",
-    "journal": "ACS Nano",
-    "year": 2009,
-    "date": "2009-09-08",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1021/nn900733d",
-    "citationCount": 82
-  },
-  {
-    "id": 147,
-    "title": "Parallel detection of nucleic acids using an electronic chip",
-    "authors": "L. Soleymani, Z. Fang, S. Kelley, E. Sargent",
-    "journal": "International Conference on Innovations in Information Technology",
-    "year": 2008,
-    "date": "2008-12-01",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1109/INNOVATIONS.2008.4781772",
     "citationCount": 0
   }
 ]

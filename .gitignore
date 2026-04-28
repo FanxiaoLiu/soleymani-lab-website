@@ -14,3 +14,6 @@ build/
 
 # VSCode Files
 genetic_sensing_site.code-workspace
+
+# Script backups
+*.bak

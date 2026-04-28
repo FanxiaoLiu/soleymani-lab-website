@@ -1,83 +1,117 @@
-import fs from 'fs';
-import readline from 'readline';
+import {
+  createPrompt,
+  ask,
+  pick,
+  confirm,
+  readJson,
+  writeJson,
+  validators,
+  isDryRun,
+} from './script-utils.mjs';
 
-// --- CONFIGURATION ---
 const JSON_FILE_PATH = './client/src/data/alumni.json';
 
-// Defined questions (Split Role and Year)
-const questions = [
-  { key: 'name', question: "Enter Name (e.g., Dr. John Smith): " },
-  { key: 'role_base', question: "Enter Former Role (e.g., PhD Graduate): " },
-  { key: 'year', question: "Enter Year (e.g., 2024): " },
-  { key: 'current_position', question: "Enter Current Position (e.g., Postdoctoral Fellow): " },
-  { key: 'current_org', question: "Enter Current Organization (e.g., MIT): " },
-  { key: 'group', question: "Enter Group (e.g., PhD Graduates): " }
+// "former_role" is stored as "Role (Year)", but we ask role + year separately.
+const FIELDS = [
+  { key: 'name',             label: 'Name',                  required: true },
+  { key: 'role_base',        label: 'Former role title',     required: true },
+  { key: 'year',             label: 'Graduation year',       required: true,  validate: validators.year },
+  { key: 'current_position', label: 'Current position',      required: false },
+  { key: 'current_org',      label: 'Current organization',  required: false },
+  { key: 'group',            label: 'Group',                 required: true,  isGroup: true },
 ];
 
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
+const DEFAULT_GROUPS = ['PhD Graduates', 'MSc Graduates', 'Post-Doctoral Fellows', 'Undergraduate Alumni', 'Staff'];
 
-const ask = (q) => new Promise((resolve) => rl.question(q, resolve));
+async function collectField(rl, field, existingGroups, current) {
+  if (field.isGroup) {
+    const choices = existingGroups.length ? existingGroups : DEFAULT_GROUPS;
+    return pick(rl, field.label, choices, {
+      allowOther: true,
+      otherLabel: 'Enter new group…',
+      default: current,
+    });
+  }
+  return ask(rl, field.label, {
+    required: field.required,
+    default: current,
+    validate: field.validate,
+  });
+}
 
 async function main() {
-  console.log("=== Alumni Directory Updater ===");
-  console.log("Press Ctrl+C at any time to cancel.\n");
+  console.log('=== Alumni Directory: Add Entry ===');
+  console.log('Press Ctrl+C to cancel.\n');
 
-  let alumniData = [];
-  try {
-    if (fs.existsSync(JSON_FILE_PATH)) {
-      const rawData = fs.readFileSync(JSON_FILE_PATH, 'utf-8');
-      alumniData = JSON.parse(rawData);
-    } else {
-      console.log(`⚠️  ${JSON_FILE_PATH} not found. Creating a new one.`);
-    }
-  } catch (err) {
-    console.error(`❌ Error reading file: ${err.message}`);
-    process.exit(1);
-  }
+  const dryRun = isDryRun();
+  if (dryRun) console.log('💧 Dry-run mode: no files will be written.\n');
 
-  // Collect raw answers
+  const alumni = readJson(JSON_FILE_PATH, []);
+  const existingGroups = [...new Set(alumni.map((a) => a.group).filter(Boolean))];
+
+  const rl = createPrompt();
   const answers = {};
-  for (const q of questions) {
-    const response = await ask(q.question);
-    answers[q.key] = response.trim();
+  for (const field of FIELDS) {
+    answers[field.key] = await collectField(rl, field, existingGroups);
   }
 
-  // Generate ID
-  const maxId = alumniData.reduce((max, p) => (typeof p.id === 'number' ? Math.max(max, p.id) : max), 0);
-  
-  // Construct the Final Object
-  // We automatically format 'former_role' to match your JSON structure: "Role (Year)"
+  const maxId = alumni.reduce(
+    (max, a) => (typeof a.id === 'number' ? Math.max(max, a.id) : max),
+    0
+  );
   const newAlum = {
     id: maxId + 1,
     name: answers.name,
     former_role: `${answers.role_base} (${answers.year})`,
-    current_position: answers.current_position,
-    current_org: answers.current_org,
-    group: answers.group
+    current_position: answers.current_position || 'NA',
+    current_org: answers.current_org || 'NA',
+    group: answers.group,
   };
 
-  console.log("\n--- Preview ---");
-  console.log(newAlum);
+  // Edit-on-confirm — store edits back into `answers` and rebuild `former_role`.
+  while (true) {
+    console.log('\n--- Preview ---');
+    console.log(JSON.stringify(newAlum, null, 2));
 
-  const confirm = await ask("\nIs this correct? (y/n): ");
+    const ok = await confirm(rl, '\nIs this correct?', true);
+    if (ok) break;
 
-  if (confirm.toLowerCase() === 'y') {
-    alumniData.push(newAlum);
-    // Optional: Sort by Year Descending if you want (Newest graduates first)
-    // alumniData.sort((a, b) => {
-    //   const yearA = parseInt(a.former_role.match(/\d{4}/)?.[0] || 0);
-    //   const yearB = parseInt(b.former_role.match(/\d{4}/)?.[0] || 0);
-    //   return yearB - yearA;
-    // });
+    console.log('\nWhich field would you like to fix?');
+    FIELDS.forEach((f, i) => {
+      const v = answers[f.key];
+      console.log(`  ${i + 1}) ${f.label}  ›  ${v === '' || v == null ? '<blank>' : v}`);
+    });
+    console.log(`  ${FIELDS.length + 1}) Cancel (discard everything)`);
 
-    fs.writeFileSync(JSON_FILE_PATH, JSON.stringify(alumniData, null, 2));
-    console.log(`\n✅ Success! Added ${newAlum.name} to the alumni list.`);
-  } else {
-    console.log("\n❌ Cancelled. No changes made.");
+    const raw = await rl.ask(`> Pick [1-${FIELDS.length + 1}]: `);
+    if (raw === null) {
+      console.log('\n[stdin closed — aborting]');
+      rl.close();
+      return;
+    }
+    const n = parseInt(raw.trim(), 10);
+    if (n === FIELDS.length + 1) {
+      console.log('\n❌ Cancelled. No changes made.');
+      rl.close();
+      return;
+    }
+    if (n >= 1 && n <= FIELDS.length) {
+      const f = FIELDS[n - 1];
+      answers[f.key] = await collectField(rl, f, existingGroups, answers[f.key]);
+      // Rebuild derived fields
+      newAlum.name = answers.name;
+      newAlum.former_role = `${answers.role_base} (${answers.year})`;
+      newAlum.current_position = answers.current_position || 'NA';
+      newAlum.current_org = answers.current_org || 'NA';
+      newAlum.group = answers.group;
+    } else {
+      console.log('  ⚠️  Invalid choice.');
+    }
   }
+
+  alumni.push(newAlum);
+  writeJson(JSON_FILE_PATH, alumni, { dryRun });
+  console.log(`\n✅ ${dryRun ? '[dry-run] Would have added' : 'Added'} ${newAlum.name}.`);
 
   rl.close();
 }
