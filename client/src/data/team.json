@@ -141,7 +141,7 @@
     "joined": "Fall 2025",
     "research_focus": "DNA Aptamer Sensing",
     "research_link": "/research",
-    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "image": "https://res.cloudinary.com/dbp3qdzpj/image/upload/v1777396376/1701740088362977339_pst9gb.jpg",
     "group": "PhD Candidates",
     "id": 12,
     "linkedin": "https://www.linkedin.com/in/cuong-le-nguyen-duc-112science/",
@@ -314,5 +314,17 @@
     "id": 26,
     "linkedin": "https://www.linkedin.com/in/navid-farkhondehpay-8798a2301/",
     "email": "farkhonn@mcmaster.ca"
+  },
+  {
+    "name": "Stephen Chupil",
+    "role": "Research Assistant",
+    "joined": "Summer 2025",
+    "research_focus": "Biosensing",
+    "research_link": "/research/diagnostics",
+    "image": "https://res.cloudinary.com/dbp3qdzpj/image/upload/v1777396173/Chupil_Stephen_005_1_zyias2.jpg",
+    "group": "Research Staff",
+    "linkedin": "https://www.linkedin.com/in/stephen-chupil/",
+    "email": "chupils@mcmasteru365.onmicrosoft.com",
+    "id": 27
   }
 ]
