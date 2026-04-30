@@ -220,7 +220,7 @@
     "email": "hasanm40@mcmaster.ca"
   },
   {
-    "name": "Shayan Mirmani",
+    "name": "Shayan Mirmirani",
     "role": "Undergraduate Thesis Student",
     "joined": "Fall 2025",
     "research_focus": "Electrochemistry",
@@ -326,5 +326,17 @@
     "linkedin": "https://www.linkedin.com/in/stephen-chupil/",
     "email": "chupils@mcmasteru365.onmicrosoft.com",
     "id": 27
+  },
+  {
+    "name": "Camila Gonzalez",
+    "role": "Undergraduate Researcher",
+    "joined": "Fall 2025",
+    "research_focus": "Biosensing",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Undergraduate Students",
+    "linkedin": "https://www.linkedin.com/in/camila-gonzalez-161a5a317/",
+    "email": "gonzam15@mcmaster.ca",
+    "id": 28
   }
 ]
