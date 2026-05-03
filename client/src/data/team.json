@@ -338,5 +338,17 @@
     "linkedin": "https://www.linkedin.com/in/camila-gonzalez-161a5a317/",
     "email": "gonzam15@mcmaster.ca",
     "id": 28
+  },
+  {
+    "name": "Rowan Deckert",
+    "role": "Laboratory Technician",
+    "joined": "Winter 2026",
+    "research_focus": "Biosensors",
+    "research_link": "",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Research Staff",
+    "linkedin": "https://ca.linkedin.com/in/rowan-deckert",
+    "email": "",
+    "id": 29
   }
 ]

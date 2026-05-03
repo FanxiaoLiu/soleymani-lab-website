@@ -6,7 +6,11 @@
     "description_detailed": "We are developing wearable biosensors that provide continuous monitoring of various biomarkers, essential for both disease management and health monitoring. By combining electrochemical sensors with polymer microneedles, we can capture health data in real time without invasive blood draws. These sensors are engineered to be rapid and non-invasive, enabling continuous health monitoring for a range of analytes beyond glucose. These devices aim to enhance patient care and health outcomes. We are pursuing opportunities to develop a new generation of marketable technologies in this field.",
     "image": "/researcharea1.webp",
     "link": "/research",
-    "publication_ids": [23,25] 
+    "publication_ids": [
+      1,
+      8,
+      27
+    ]
   },
   {
     "id": 2,
@@ -15,7 +19,10 @@
     "description_detailed": "We are creating innovative strategies to integrate bio-recognition elements, primarily functional nucleic acids like aptamers and DNAzymes, with electrochemical and photoelectrochemical sensors. Our cutting-edge approach facilitates the detection of proteins, nucleic acids, and small molecules through simple, handheld, and cost-effective techniques. By collaborating with multi-disciplinary teams, we have developed advanced biosensors that enable rapid detection of viruses and bacteria, crucial for managing infectious diseases. Additionally, our technology allows for the sensing of biomarkers, such as Prostate-Specific Antigen (PSA) and tumor-derived exosomes, enhancing cancer diagnostics. These strategies deliver accurate results at the point of care, empowering timely and effective treatment decisions. We are actively pursuing partnerships aimed at commercializing these groundbreaking devices.",
     "image": "/researcharea2.jpg",
     "link": "/research",
-    "publication_ids": [24,9,7]
+    "publication_ids": [
+      32,
+      59
+    ]
   },
   {
     "id": 3,
@@ -24,6 +31,9 @@
     "description_detailed": "We are developing multi-functional smart surfaces designed to repel contamination, perform sensing functions, and eliminate pathogens. For instance, a category of bio-inspired surfaces utilizes structures at the micro- to nano-scale to achieve omniphobicity, effectively repelling various types of liquids and minimizing surface contamination from bacteria and viruses. Our ongoing research aims to enhance the efficiency of these surfaces, broaden their applicability to a wider array of contaminants, and facilitate their integration with medical devices and biosensors. We are building on our success in commercializing the initial version of these devices while actively seeking further opportunities for technology translation in this field.",
     "image": "/researcharea3.jpg",
     "link": "/research",
-    "publication_ids": [22,29]
+    "publication_ids": [
+      22,
+      29
+    ]
   }
 ]

@@ -142,5 +142,173 @@
     "current_position": "NA",
     "current_org": "NA",
     "group": "Post-Doctoral Fellows"
+  },
+  {
+    "id": 19,
+    "name": "Alexander Scott",
+    "former_role": "Master's Student (2019)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Master's Students"
+  },
+  {
+    "id": 20,
+    "name": "Sarah Traynor",
+    "former_role": "Master's Student (2020)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Master's Students"
+  },
+  {
+    "id": 21,
+    "name": "Larona Toteng",
+    "former_role": "Master's Student (2019)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Master's Students"
+  },
+  {
+    "id": 22,
+    "name": "Eric Daigle",
+    "former_role": "Master's Student (2019)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Master's Students"
+  },
+  {
+    "id": 23,
+    "name": "Amanda Victorious",
+    "former_role": "PhD Candidate (2022)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "PhD Graduates"
+  },
+  {
+    "id": 24,
+    "name": "Yuting Chan",
+    "former_role": "Master's Student (2018)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Master's Students"
+  },
+  {
+    "id": 25,
+    "name": "Md. Roquibul Hasan",
+    "former_role": "Master's Student (2018)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Master's Students"
+  },
+  {
+    "id": 26,
+    "name": "Barnabas Fung",
+    "former_role": "Master's Student (2016)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Master's Students"
+  },
+  {
+    "id": 27,
+    "name": "Stephen Woo",
+    "former_role": "Master's Student (2014)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Master's Students"
+  },
+  {
+    "id": 28,
+    "name": "Amin Hosseini",
+    "former_role": "Master's Student (2014)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Master's Students"
+  },
+  {
+    "id": 29,
+    "name": "Christine Gabardo",
+    "former_role": "PhD Candidate (2016)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "PhD Graduates"
+  },
+  {
+    "id": 30,
+    "name": "Yin Wei",
+    "former_role": "Post-Doctoral Fellow (2014)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Post-Doctoral Fellows"
+  },
+  {
+    "id": 31,
+    "name": "Jie Yang",
+    "former_role": "Post-Doctoral Fellow (2019)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Post-Doctoral Fellows"
+  },
+  {
+    "id": 32,
+    "name": "Richa Pandey",
+    "former_role": "Post Doctoral Fellow (2021)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Post-Doctoral Fellows"
+  },
+  {
+    "id": 33,
+    "name": "Amin Hosseini",
+    "former_role": "Post Doctoral Fellow (2021)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Post-Doctoral Fellows"
+  },
+  {
+    "id": 34,
+    "name": "Sudip Saha",
+    "former_role": "Post Doctoral Fellow (2021)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Post-Doctoral Fellows"
+  },
+  {
+    "id": 35,
+    "name": "Cedric Pattyn",
+    "former_role": "Post Doctoral Fellow (2023)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Post-Doctoral Fellows"
+  },
+  {
+    "id": 36,
+    "name": "Sara Imani",
+    "former_role": "Post Doctoral Fellow (2026)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Post-Doctoral Fellows"
+  },
+  {
+    "id": 37,
+    "name": "Noor Abu Jarad",
+    "former_role": "PhD Candidate (2024)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "PhD Graduates"
+  },
+  {
+    "id": 38,
+    "name": "Fatemeh Bakhshandeh",
+    "former_role": "PhD Candidate (2024)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "PhD Graduates"
+  },
+  {
+    "id": 39,
+    "name": "Amirhossein Rakhsha",
+    "former_role": "PhD Candidate (2025)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "PhD Graduates"
   }
 ]
