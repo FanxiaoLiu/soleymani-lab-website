@@ -17,3 +17,6 @@ genetic_sensing_site.code-workspace
 
 # Script backups
 *.bak
+
+# Claude Code internal workspace (worktrees, settings)
+.claude/
