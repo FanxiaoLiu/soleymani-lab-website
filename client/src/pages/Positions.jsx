@@ -67,12 +67,15 @@ const Positions = () => {
                   </li>
                 </ul>
                 
-                <a 
-                  href="mailto:soleyml@mcmaster.ca" 
+                <a
+                  href="mailto:soleymanipositions@gmail.com"
                   className="block w-full text-center bg-mcmaster-maroon text-white font-bold py-3 rounded-lg hover:bg-red-900 transition-colors shadow-md uppercase tracking-wide text-xs"
                 >
-                  Email Dr. Soleymani
+                  Email the Lab About Positions
                 </a>
+                <p className="text-xs text-gray-500 mt-3 text-center">
+                  soleymanipositions@gmail.com
+                </p>
               </div>
 
             </div>

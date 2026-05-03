@@ -68,7 +68,7 @@ const Home = () => {
         {/* Hero Text */}
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 z-20 pb-12">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-lg max-w-4xl leading-tight">
-            Electrochemical Biosensing
+            Next Generation Sensing for Personalized Health
           </h1>
           <p className="text-lg md:text-2xl text-gray-200 font-light max-w-2xl mb-10 drop-shadow-md">
             Developing new sensing technologies to combat disease and promote wellness & health

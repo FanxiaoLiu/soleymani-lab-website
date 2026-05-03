@@ -53,14 +53,21 @@ const Contact = () => {
                   <div>
                     <h3 className="font-bold text-gray-900">Email</h3>
                     <p className="text-gray-600 mt-1 mb-2">
-                      For inquiries regarding research or positions:
+                      For research inquiries and general questions:
                     </p>
-                    <a 
-                      href="mailto:soleyml@mcmaster.ca" 
+                    <a
+                      href="mailto:soleylab@mcmaster.ca"
                       className="text-mcmaster-maroon font-bold hover:underline"
                     >
-                      soleyml@mcmaster.ca
+                      soleylab@mcmaster.ca
                     </a>
+                    <p className="text-gray-600 mt-4 mb-2 text-sm">
+                      For prospective students and position inquiries, please see the{' '}
+                      <a href="/positions" className="text-mcmaster-maroon font-bold hover:underline">
+                        Positions
+                      </a>{' '}
+                      page.
+                    </p>
                   </div>
                 </div>
 

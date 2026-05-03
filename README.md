@@ -32,6 +32,7 @@ those edits interactively, so you don't have to touch JSON by hand.
   - [Update LinkedIn / email for a member](#update-linkedin--email-for-a-member)
   - [Refresh the publications list](#refresh-the-publications-list)
   - [Set a graphical-abstract image for a paper](#set-a-graphical-abstract-image-for-a-paper)
+  - [Map publications to research areas](#map-publications-to-research-areas)
 - [Part 4 — Editing things by hand](#part-4--editing-things-by-hand)
 - [Part 5 — Troubleshooting](#part-5--troubleshooting)
 
@@ -311,6 +312,31 @@ You can also drop in a local file instead of a URL — type a path like
   ones. If you pick one that already has an image, the script will ask
   *"Replace it?"* with the default answer being **No**, so you can't
   accidentally wipe out a custom image.
+
+### Map publications to research areas
+
+```
+npm run research:map
+```
+
+Each research area on the **Research** page has a "Key Publications"
+dropdown. This script lets you curate which papers appear there, per area.
+
+**How it works:**
+
+1. Pick a research area from the list (paper count shown beside each).
+2. See the papers currently mapped to that area.
+3. Choose an action:
+   - **Add a paper** — search by title keyword or paper id, pick from the
+     match list.
+   - **Remove a paper** — pick from the currently-mapped list.
+   - **Reorder** — type the new order as comma-separated positions
+     (e.g., `3,1,2` to move paper #3 to the top).
+4. Repeat for other areas, or pick **Done** to save.
+
+The script automatically cleans up any mappings that point to papers no
+longer in the publications list (e.g., if a paper was removed during a
+`pubs:sync`).
 
 ---
 

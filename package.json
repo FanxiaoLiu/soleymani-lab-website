@@ -10,7 +10,8 @@
     "alumni:add": "node update_alumni.mjs",
     "contacts:update": "node add_contacts.mjs",
     "pubs:sync": "node update_pubs.mjs",
-    "pubs:image": "node set_pub_image.mjs"
+    "pubs:image": "node set_pub_image.mjs",
+    "research:map": "node map_research_pubs.mjs"
   },
   "keywords": [],
   "author": "",
