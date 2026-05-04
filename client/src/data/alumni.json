@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "name": "Dr. Roderick Maclachlan",
+    "name": "Roderick Maclachlan",
     "former_role": "Post-Doctoral Fellow (2025)",
     "current_position": "NA",
     "current_org": "NA",
@@ -33,7 +33,7 @@
   },
   {
     "id": 5,
-    "name": "Dr. Enas Osman",
+    "name": "Enas Osman",
     "former_role": "PhD Graduate (2025)",
     "current_position": "NA",
     "current_org": "NA",
@@ -41,7 +41,7 @@
   },
   {
     "id": 6,
-    "name": "Dr. Payel Sen",
+    "name": "Payel Sen",
     "former_role": "Post-Doctoral Fellow (2024)",
     "current_position": "NA",
     "current_org": "NA",
@@ -49,7 +49,7 @@
   },
   {
     "id": 7,
-    "name": "Dr. Harmanjit Kaur",
+    "name": "Harmanjit Kaur",
     "former_role": "Post-Doctoral Fellow (2025)",
     "current_position": "NA",
     "current_org": "NA",
@@ -57,7 +57,7 @@
   },
   {
     "id": 8,
-    "name": "Dr. Christopher Tsui",
+    "name": "Christopher Tsui",
     "former_role": "Post-Doctoral Fellow (2025)",
     "current_position": "NA",
     "current_org": "NA",
@@ -65,7 +65,7 @@
   },
   {
     "id": 9,
-    "name": "Dr. Milana Pikula",
+    "name": "Milana Pikula",
     "former_role": "Post-Doctoral Fellow (2025)",
     "current_position": "NA",
     "current_org": "NA",
@@ -310,5 +310,21 @@
     "current_position": "NA",
     "current_org": "NA",
     "group": "PhD Graduates"
+  },
+  {
+    "id": 40,
+    "name": "Jinal Manek",
+    "former_role": "Lab Technician (2026)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Staff"
+  },
+  {
+    "id": 41,
+    "name": "Muskaan Singla",
+    "former_role": "Undergraduate Thesis Student (2026)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Undergraduate Students"
   }
 ]

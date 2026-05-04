@@ -52,18 +52,6 @@
     "email": "harrij28@mcmaster.ca"
   },
   {
-    "name": "Jinal Manek",
-    "role": "Lab Tech",
-    "joined": "Fall 2023",
-    "research_focus": "Antimicrobial Surfaces",
-    "research_link": "/research",
-    "image": "https://res.cloudinary.com/dbp3qdzpj/image/upload/v1769473967/Jinal_jpf5pq.jpg",
-    "group": "Research Staff",
-    "id": 4,
-    "linkedin": "https://www.linkedin.com/in/jmanek98/",
-    "email": "manekj@mcmaster.ca"
-  },
-  {
     "name": "Kulmanak Bajaj",
     "role": "PhD Candidate",
     "joined": "Summer 2022",
@@ -290,18 +278,6 @@
     "id": 24,
     "linkedin": "https://www.linkedin.com/in/lindsay-kang-413183349/",
     "email": "kangl9@mcmaster.ca"
-  },
-  {
-    "name": "Muskaan Singla",
-    "role": "Undergraduate Thesis Student",
-    "joined": "Summer 2025",
-    "research_focus": "Wearable Biosensing",
-    "research_link": "/research",
-    "image": "https://placehold.co/400x500/gray/white?text=Member",
-    "group": "Undergraduate Students",
-    "id": 25,
-    "linkedin": "NA",
-    "email": "singlm1@mcmaster.ca"
   },
   {
     "name": "Navid Farkhondehpay",
