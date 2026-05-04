@@ -20,7 +20,7 @@ const ALUMNI_PATH = './client/src/data/alumni.json';
 // Reasonable defaults if the alumni file has no entries yet.
 const DEFAULT_ALUMNI_GROUPS = [
   'PhD Graduates',
-  'MSc Graduates',
+  "Master's Graduates",
   'Post-Doctoral Fellows',
   'Undergraduate Alumni',
   'Staff',

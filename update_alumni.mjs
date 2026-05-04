@@ -21,7 +21,7 @@ const FIELDS = [
   { key: 'group',            label: 'Group',                 required: true,  isGroup: true },
 ];
 
-const DEFAULT_GROUPS = ['PhD Graduates', 'MSc Graduates', 'Post-Doctoral Fellows', 'Undergraduate Alumni', 'Staff'];
+const DEFAULT_GROUPS = ['PhD Graduates', "Master's Graduates", 'Post-Doctoral Fellows', 'Undergraduate Alumni', 'Staff'];
 
 async function collectField(rl, field, existingGroups, current) {
   if (field.isGroup) {

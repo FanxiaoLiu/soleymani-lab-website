@@ -7,12 +7,27 @@ const Alumni = () => {
     "Post-Doctoral Fellows",
     "Staff",
     "PhD Graduates",
-    "Masters Graduates",
+    "Master's Graduates",
     "Undergraduate Students"
   ];
 
-  const getAlumniByGroup = (groupName) => 
-    alumniData.filter(person => person.group === groupName);
+  // Pull the graduation year from the "former_role" string, e.g.
+  //   "PhD Graduate (2024)"        -> 2024
+  //   "Lab Manager (2021-2025)"    -> 2025  (end year of a range)
+  //   "PhD Graduate"               -> -Infinity (sorts to the end)
+  const getGradYear = (person) => {
+    if (!person.former_role) return -Infinity;
+    const m = person.former_role.match(/\((\d{4})(?:-(\d{4}))?\)/);
+    if (!m) return -Infinity;
+    return parseInt(m[2] || m[1], 10);
+  };
+
+  // Filter by group AND sort by graduation year, most recent first.
+  // Within the same year, original insertion order is preserved.
+  const getAlumniByGroup = (groupName) =>
+    alumniData
+      .filter((person) => person.group === groupName)
+      .sort((a, b) => getGradYear(b) - getGradYear(a));
 
   return (
     <div className="min-h-screen bg-gray-50 pb-24">
