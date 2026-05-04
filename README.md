@@ -33,6 +33,7 @@ those edits interactively, so you don't have to touch JSON by hand.
   - [Refresh the publications list](#refresh-the-publications-list)
   - [Set a graphical-abstract image for a paper](#set-a-graphical-abstract-image-for-a-paper)
   - [Map publications to research areas](#map-publications-to-research-areas)
+  - [Pick featured publications for the home page](#pick-featured-publications-for-the-home-page)
 - [Part 4 — Editing things by hand](#part-4--editing-things-by-hand)
 - [Part 5 — Troubleshooting](#part-5--troubleshooting)
 
@@ -337,6 +338,65 @@ dropdown. This script lets you curate which papers appear there, per area.
 The script automatically cleans up any mappings that point to papers no
 longer in the publications list (e.g., if a paper was removed during a
 `pubs:sync`).
+
+### Pick featured publications for the home page
+
+```
+npm run featured:pick
+```
+
+The home page's "Featured Publications" section is driven by
+`client/src/data/featured_publications.json`. This script picks them
+automatically based on impact, ranks the candidates, shows the top 10, and
+(after you confirm) writes the chosen ids.
+
+**Default ranking:** weighted score = `citations × 1 + impactFactor × 5`,
+restricted to papers from the last 2 years.
+
+**Configuration** lives in `featured.config.json` at the repo root:
+
+```jsonc
+{
+  "count": 3,             // how many to feature
+  "yearsBack": 2,         // only papers from the last N years
+  "metric": "score",      // "score" | "citations" | "impact_factor"
+  "weights": { "citations": 1, "impactFactor": 5 },
+  "denyIds": [],          // paper ids to never feature
+  "journalImpactFactors": {
+    "Nature": 64.8,
+    "Angewandte Chemie": 16.6,
+    /* …extend as the lab publishes in new venues */
+  }
+}
+```
+
+If a paper's journal isn't in `journalImpactFactors` (e.g., a brand-new
+venue), its IF is treated as 0 and the script will warn you so you can add
+it.
+
+**Useful flags:**
+
+- `npm run featured:pick -- --list` — print the ranking and exit; don't
+  write anything. Good for previewing what *would* be picked.
+- `npm run featured:pick -- --metric citations` — rank by raw citation
+  count for this run (overrides the config).
+- `npm run featured:pick -- --metric impact_factor` — rank by journal IF
+  alone.
+- `npm run featured:pick -- --count 5` — pick 5 papers instead of the
+  configured count.
+- `npm run featured:pick -- --years 3` — widen the window to 3 years.
+
+**Manual override:** if you want to force-feature a specific paper that
+the algorithm wouldn't pick, you can edit
+`client/src/data/featured_publications.json` directly and replace the `ids`
+array. (Just remember it'll be overwritten the next time you run the
+script.)
+
+To exclude a specific paper *permanently* — e.g., a retraction notice —
+add its id to `denyIds` in `featured.config.json`.
+
+**Refresh cadence:** re-run after `npm run pubs:sync` to pick up new
+papers and updated citation counts. Once a quarter is reasonable.
 
 ---
 

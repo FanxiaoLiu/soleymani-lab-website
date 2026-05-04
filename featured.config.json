@@ -1,0 +1,65 @@
+{
+  "count": 3,
+  "yearsBack": 2,
+  "metric": "score",
+  "weights": { "citations": 1, "impactFactor": 5 },
+  "denyIds": [],
+  "journalImpactFactors": {
+    "Nature": 64.8,
+    "Science": 56.9,
+    "Cell": 45.5,
+    "Nature Methods": 47.4,
+    "Nature Materials": 41.2,
+    "Nature Biotechnology": 33.1,
+    "Nature Reviews Bioengineering": 35.0,
+    "Nature Reviews Materials": 79.8,
+    "Nature Communications": 14.7,
+    "Science Advances": 11.7,
+    "Nature Nanotechnology": 38.3,
+
+    "Advanced Materials": 27.4,
+    "Advanced Functional Materials": 18.5,
+    "Advanced Materials Interfaces": 4.3,
+    "Advanced Healthcare Materials": 10.0,
+    "Advanced Science": 14.3,
+
+    "Angewandte Chemie": 16.6,
+    "Angewandte Chemie International Edition": 16.6,
+    "Journal of the American Chemical Society": 14.4,
+    "Chemical Society Reviews": 40.4,
+    "ACS Nano": 17.1,
+    "ACS Sensors": 8.9,
+    "ACS Applied Materials and Interfaces": 8.3,
+    "ACS Applied Materials & Interfaces": 8.3,
+    "ACS Central Science": 12.7,
+
+    "Analytical Chemistry": 7.4,
+    "Trends in Analytical Chemistry": 12.4,
+    "Trends in Analytical Chemistry (TrAC)": 12.4,
+    "Lab on a Chip": 6.1,
+    "Biosensors and Bioelectronics": 12.6,
+    "Biosensors & bioelectronics": 12.6,
+    "Sensors and Actuators B: Chemical": 8.4,
+
+    "Nucleic Acids Research": 16.6,
+    "Cell Reports Physical Science": 8.9,
+    "Cell Reports": 7.5,
+    "Cell Reports Methods": 4.0,
+
+    "Small": 13.0,
+    "Small Methods": 12.4,
+
+    "Scientific Reports": 4.6,
+    "Microscopy and Microanalysis": 1.4,
+    "Langmuir": 3.7,
+    "IEEE Nanotechnology Magazine": 1.5,
+    "Biomedicine & Pharmacotherapy": 5.6,
+    "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie": 5.6,
+
+    "ECS Meeting Abstracts": 0,
+    "Journal": 0,
+    "bioRxiv": 0,
+    "arXiv": 0,
+    "medRxiv": 0
+  }
+}

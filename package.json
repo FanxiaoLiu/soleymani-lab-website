@@ -11,7 +11,8 @@
     "contacts:update": "node add_contacts.mjs",
     "pubs:sync": "node update_pubs.mjs",
     "pubs:image": "node set_pub_image.mjs",
-    "research:map": "node map_research_pubs.mjs"
+    "research:map": "node map_research_pubs.mjs",
+    "featured:pick": "node pick_featured.mjs"
   },
   "keywords": [],
   "author": "",

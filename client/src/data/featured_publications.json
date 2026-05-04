@@ -1,0 +1,14 @@
+{
+  "ids": [
+    8,
+    34,
+    31
+  ],
+  "computedAt": "2026-05-04T14:18:56.101Z",
+  "metric": "score",
+  "cutoffYear": 2024,
+  "weights": {
+    "citations": 1,
+    "impactFactor": 5
+  }
+}
