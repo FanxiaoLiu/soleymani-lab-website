@@ -31,6 +31,7 @@ those edits interactively, so you don't have to touch JSON by hand.
   - [Add an alumni entry directly](#add-an-alumni-entry-directly)
   - [Update LinkedIn / email for a member](#update-linkedin--email-for-a-member)
   - [Refresh the publications list](#refresh-the-publications-list)
+  - [Add a publication manually](#add-a-publication-manually)
   - [Set a graphical-abstract image for a paper](#set-a-graphical-abstract-image-for-a-paper)
   - [Map publications to research areas](#map-publications-to-research-areas)
   - [Pick featured publications for the home page](#pick-featured-publications-for-the-home-page)
@@ -277,6 +278,46 @@ editor like VS Code or Notepad). It looks like:
   before that are filtered out.
 
 After editing the config, save it and run `npm run pubs:sync` again.
+
+> **Note on stability:** as of this version, paper IDs are **preserved
+> across syncs** (matched by DOI first, then title). This means
+> `featured_publications.json` and the publication-id mappings in
+> `research_areas.json` keep pointing at the right papers even after a
+> sync. Custom paper images are also preserved (already true before).
+
+### Add a publication manually
+
+```
+npm run pubs:add
+```
+
+For papers that aren't on Semantic Scholar yet (e.g., very fresh
+preprints), papers in venues S2 doesn't index, or whenever you want to
+override what S2 has wrong about a paper.
+
+The script walks you through:
+
+| Field | Required | Notes |
+|---|---|---|
+| Title | yes | |
+| Authors | yes | Free-text, comma-separated |
+| Journal / venue | yes | e.g., "Nature Reviews Bioengineering" |
+| Year | yes | 4 digits |
+| Date | no | `YYYY-MM-DD`; blank → Jan 1 of the year |
+| DOI URL or article link | yes | Validated as a URL |
+| Image | no | URL or `/pub-images/...` path; blank → placeholder |
+| Citation count | no | Defaults to 0 |
+
+You'll see a preview before saving. Type `n` to fix any field.
+
+The new entry is written with `"manual": true`. **`pubs:sync` preserves
+any paper marked `manual: true`** — your manual entries are sticky and
+won't be wiped on the next sync.
+
+If a manual paper later shows up on Semantic Scholar (same DOI or title),
+the manual entry takes precedence — the S2 version is skipped. To switch
+to the S2 version instead, delete the manual entry from
+`publications.json` and re-run `npm run pubs:sync`.
 
 ### Set a graphical-abstract image for a paper
 
