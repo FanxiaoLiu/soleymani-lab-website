@@ -21,7 +21,8 @@
     "link": "/research",
     "publication_ids": [
       3,
-      31
+      31,
+      128
     ]
   },
   {
@@ -32,8 +33,9 @@
     "image": "/researcharea3.jpg",
     "link": "/research",
     "publication_ids": [
-      22,
-      29
+      28,
+      29,
+      47
     ]
   }
 ]

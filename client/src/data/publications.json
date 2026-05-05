@@ -187,6 +187,18 @@
     "citationCount": 1
   },
   {
+    "id": 128,
+    "title": "Comparative Analysis of Machine Learning Algorithms Used for Translating Aptamer-Antigen Binding Kinetic Profiles to Diagnostic Decisions",
+    "authors": "Sakib, S., Bajaj, K., Sen, P., Li, W., Gu, J., Li, Y., Soleymani, L.",
+    "journal": "ACS Sensors",
+    "year": 2025,
+    "date": "2025-01-27",
+    "image": "https://pubs.acs.org/cms/10.1021/acssensors.4c02682/asset/images/medium/se4c02682_0006.gif",
+    "link": "https://pubs.acs.org/doi/abs/10.1021/acssensors.4c02682",
+    "citationCount": 10,
+    "manual": true
+  },
+  {
     "id": 18,
     "title": "Dimeric DNA Aptamers for the Spike Protein of SARS‐CoV‐2 Derived from a Structured Library with Dual Random Domains",
     "authors": "Ryan Amini, Jian Ma, Zijie Zhang, Qing Wang, Jimmy Gu...",
