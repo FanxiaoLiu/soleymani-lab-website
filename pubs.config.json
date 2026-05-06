@@ -7,5 +7,15 @@
     "2330005962"
   ],
   "denyTitles": [],
-  "minYear": 2016
+  "minYear": 2016,
+  "authorFilter": {
+    "enabled": true,
+    "minLabAuthors": 1,
+    "additionalLabAuthors": [],
+    "denyAuthors": [
+      "M. Ashrafizadeh",
+      "K. Hushmandi",
+      "A. Zarrabi"
+    ]
+  }
 }

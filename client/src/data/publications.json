@@ -44,17 +44,6 @@
     "citationCount": 0
   },
   {
-    "id": 5,
-    "title": "Retraction notice to \"New insight towards development of paclitaxel and docetaxel resistance in cancer cells: EMT as a novel molecular mechanism and therapeutic possibilities\" [Biomedicine & Pharmacotherapy 141 (2021) 111824].",
-    "authors": "M. Ashrafizadeh, Sepideh Mirzaei, F. Hashemi, A. Zarrabi, Amirhossein Zabolian...",
-    "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
-    "year": 2026,
-    "date": "2026-03-01",
-    "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
-    "link": "https://doi.org/10.1016/j.biopha.2026.119228",
-    "citationCount": 0
-  },
-  {
     "id": 6,
     "title": "Laser-engraved graphitized Kapton electrodes facilitate in situ X-ray absorption spectroscopy of electrocatalysts",
     "authors": "A. Rakhsha, Ashkan Irannezhad, Navid Noor, Allison Suichies, H. Eraky...",
@@ -339,7 +328,7 @@
     "date": "2024-05-16",
     "image": "pubmainfigure1.jpg",
     "link": "https://doi.org/10.1002/adma.202313743",
-    "citationCount": 84
+    "citationCount": 85
   },
   {
     "id": 31,
@@ -350,7 +339,7 @@
     "date": "2024-03-08",
     "image": "/pub-images/31-high-precision-viral-detection-using-electrochemical-kinetic.jpg",
     "link": "https://doi.org/10.1002/anie.202400413",
-    "citationCount": 28
+    "citationCount": 29
   },
   {
     "id": 32,
@@ -372,7 +361,7 @@
     "date": "2024-02-05",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1002/adsr.202300170",
-    "citationCount": 35
+    "citationCount": 38
   },
   {
     "id": 34,
@@ -570,7 +559,7 @@
     "date": "2022-09-30",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1002/anie.202212496",
-    "citationCount": 79
+    "citationCount": 80
   },
   {
     "id": 52,
@@ -746,7 +735,7 @@
     "date": "2021-12-01",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1016/j.electacta.2021.139746",
-    "citationCount": 17
+    "citationCount": 19
   },
   {
     "id": 68,
@@ -834,7 +823,7 @@
     "date": "2021-06-24",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1038/s41557-021-00718-x",
-    "citationCount": 89
+    "citationCount": 90
   },
   {
     "id": 76,
@@ -933,7 +922,7 @@
     "date": "2020-10-09",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1021/acsnano.0c05937",
-    "citationCount": 339
+    "citationCount": 340
   },
   {
     "id": 85,
@@ -1098,7 +1087,7 @@
     "date": "2019-08-02",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1021/acsnano.9b04129",
-    "citationCount": 389
+    "citationCount": 391
   },
   {
     "id": 100,
@@ -1197,7 +1186,7 @@
     "date": "2018-08-21",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1002/anie.201806489",
-    "citationCount": 63
+    "citationCount": 64
   },
   {
     "id": 109,
@@ -1219,7 +1208,7 @@
     "date": "2018-06-22",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1021/acs.analchem.8b01642",
-    "citationCount": 30
+    "citationCount": 31
   },
   {
     "id": 111,
@@ -1340,7 +1329,7 @@
     "date": "2016-09-13",
     "image": "https://placehold.co/200x200/7A003C/white?text=Paper",
     "link": "https://doi.org/10.1021/acsnano.6b04584",
-    "citationCount": 57
+    "citationCount": 58
   },
   {
     "id": 122,

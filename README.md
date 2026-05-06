@@ -264,7 +264,13 @@ editor like VS Code or Notepad). It looks like:
     ...
   ],
   "denyTitles": [],
-  "minYear": 2016
+  "minYear": 2016,
+  "authorFilter": {
+    "enabled": true,
+    "minLabAuthors": 1,
+    "additionalLabAuthors": [],
+    "denyAuthors": ["M. Ashrafizadeh", "K. Hushmandi", "A. Zarrabi"]
+  }
 }
 ```
 
@@ -278,6 +284,34 @@ editor like VS Code or Notepad). It looks like:
   before that are filtered out.
 
 After editing the config, save it and run `npm run pubs:sync` again.
+
+#### The author filter (defends against profile contamination)
+
+Semantic Scholar's profile system occasionally merges papers from a
+**different "Leyla Soleymani"** (a cancer-research author in another
+country) into the McMaster PI's profiles. The `authorFilter` block defends
+against that.
+
+Two levers:
+
+- **`minLabAuthors`** — every imported paper must have at least this many
+  authors who match the McMaster lab roster (auto-built from `team.json` +
+  `alumni.json`). Default `1` (just the PI is enough). Set to `2` if you
+  want to be stricter — but be aware this will also exclude legitimate
+  collaboration papers where Dr. Soleymani is the only lab co-author.
+- **`denyAuthors`** — list of names that, if present on a paper, cause it
+  to be rejected outright. Pre-populated with three frequent co-authors
+  of the wrong Leyla Soleymani (`M. Ashrafizadeh`, `K. Hushmandi`,
+  `A. Zarrabi`) — these surgically reject contaminated papers without
+  affecting legitimate ones. Add more names here if new contamination
+  appears in future syncs.
+
+The author-name match is fuzzy: `"M. Ashrafizadeh"` in `denyAuthors`
+matches both `M. Ashrafizadeh` and `Mehrdad Ashrafizadeh` in the paper's
+author list. Same for the lab pool.
+
+To **disable the filter entirely** (not recommended): set
+`"authorFilter": {"enabled": false}`.
 
 > **Note on stability:** as of this version, paper IDs are **preserved
 > across syncs** (matched by DOI first, then title). This means

@@ -8,7 +8,76 @@ import { backup, isDryRun } from './script-utils.mjs';
 
 const CONFIG_PATH = './pubs.config.json';
 const JSON_FILE_PATH = './client/src/data/publications.json';
+const TEAM_PATH = './client/src/data/team.json';
+const ALUMNI_PATH = './client/src/data/alumni.json';
 const PLACEHOLDER_IMG = 'https://placehold.co/200x200/7A003C/white?text=Paper';
+
+// --- Lab-author filtering ----------------------------------------------------
+// Semantic Scholar's profile system is imperfect — there is at least one OTHER
+// "Leyla Soleymani" out there whose papers occasionally get merged into our
+// PI's profiles. We defend against that by requiring every imported paper to
+// have at least N authors that match the McMaster lab roster (PI + members +
+// alumni). This catches contamination by foreign name-collision and is robust
+// to S2's profile-merging mistakes.
+
+function normalizeNameTokens(name) {
+  if (!name) return [];
+  const cleaned = name
+    .replace(/\(([^)]+)\)/g, ' ')                 // strip "(Nickname)"
+    .replace(/\b(Dr|Prof|Professor|Mr|Mrs|Ms|Mx)\.?\s+/gi, '') // strip titles
+    .replace(/[.,]/g, ' ')                        // dots/commas → space
+    .replace(/[-‐‐-―]/g, ' ')           // any hyphen → space
+    .toLowerCase()
+    .trim();
+  return cleaned.split(/\s+/).filter(Boolean);
+}
+
+// True iff two author names plausibly refer to the same person:
+//   last name matches AND first name (or initial) matches.
+function nameMatches(a, b) {
+  const aT = normalizeNameTokens(a);
+  const bT = normalizeNameTokens(b);
+  if (aT.length === 0 || bT.length === 0) return false;
+  if (aT[aT.length - 1] !== bT[bT.length - 1]) return false; // last name
+  const aF = aT[0], bF = bT[0];
+  if (aF === bF) return true;
+  if (aF.length === 1 && aF === bF[0]) return true; // "L." vs "Leyla"
+  if (bF.length === 1 && bF === aF[0]) return true;
+  return false;
+}
+
+function loadLabAuthorPool(additional = []) {
+  const pool = [...additional];
+  try {
+    if (fs.existsSync(TEAM_PATH)) {
+      const team = JSON.parse(fs.readFileSync(TEAM_PATH, 'utf-8'));
+      pool.push(...team.map((p) => p.name).filter(Boolean));
+    }
+  } catch (err) {
+    console.warn(`  ⚠️  Couldn't read team.json for the author filter: ${err.message}`);
+  }
+  try {
+    if (fs.existsSync(ALUMNI_PATH)) {
+      const alumni = JSON.parse(fs.readFileSync(ALUMNI_PATH, 'utf-8'));
+      pool.push(...alumni.map((p) => p.name).filter(Boolean));
+    }
+  } catch (err) {
+    console.warn(`  ⚠️  Couldn't read alumni.json for the author filter: ${err.message}`);
+  }
+  return pool;
+}
+
+// Count how many of `paperAuthors` (S2 author objects) match somebody in
+// `labPool` (array of full names).
+function countLabAuthorOverlap(paperAuthors, labPool) {
+  let count = 0;
+  for (const a of paperAuthors || []) {
+    const an = (a && a.name) || '';
+    if (!an) continue;
+    if (labPool.some((ln) => nameMatches(an, ln))) count++;
+  }
+  return count;
+}
 
 function loadConfig() {
   if (!fs.existsSync(CONFIG_PATH)) {
@@ -37,7 +106,15 @@ function normalizeTitle(t) {
 
 async function fetchPapers() {
   const dryRun = isDryRun();
-  const { authorIds, denyTitles = [], minYear = null } = loadConfig();
+  const config = loadConfig();
+  const { authorIds, denyTitles = [], minYear = null } = config;
+  const authorFilterCfg = config.authorFilter || {};
+  const filterEnabled = authorFilterCfg.enabled !== false;
+  const minLabAuthors = Number.isFinite(authorFilterCfg.minLabAuthors)
+    ? authorFilterCfg.minLabAuthors
+    : 2;
+  const additionalLabAuthors = authorFilterCfg.additionalLabAuthors || [];
+  const denyAuthorList = authorFilterCfg.denyAuthors || [];
 
   if (!Array.isArray(authorIds) || authorIds.length === 0) {
     console.error('❌ No authorIds configured in pubs.config.json.');
@@ -48,6 +125,19 @@ async function fetchPapers() {
   console.log(`Fetching papers for ${authorIds.length} author profile(s)…`);
   if (minYear) console.log(`  Filter: only papers from ${minYear} onward.`);
   if (denyTitles.length) console.log(`  Deny-list: ${denyTitles.length} title(s) will be excluded.`);
+
+  let labPool = [];
+  if (filterEnabled) {
+    labPool = loadLabAuthorPool(additionalLabAuthors);
+    console.log(
+      `  Author filter: paper must include ≥${minLabAuthors} author(s) from the lab roster (${labPool.length} known names).`
+    );
+    if (denyAuthorList.length > 0) {
+      console.log(`  Deny-author list: ${denyAuthorList.length} name(s) will reject any paper containing them.`);
+    }
+  } else {
+    console.log('  Author filter: DISABLED (every paper from S2 will be imported).');
+  }
 
   const denySet = new Set(denyTitles.map((t) => t.trim().toLowerCase()));
 
@@ -112,6 +202,9 @@ async function fetchPapers() {
   let denyFiltered = 0;
   let yearFiltered = 0;
   let manualOverridden = 0;
+  let labAuthorFiltered = 0;
+  let denyAuthorFiltered = 0;
+  const labAuthorRejected = []; // for verbose reporting
 
   rawPapers.forEach((paper) => {
     if (!paper.title) return;
@@ -126,6 +219,35 @@ async function fetchPapers() {
       return;
     }
     if (uniquePapersMap.has(titleNorm)) return;
+
+    // Author-overlap filter — defends against S2 attributing papers to the
+    // wrong "Leyla Soleymani" (or similar profile-merge bugs).
+    if (filterEnabled) {
+      const paperAuthors = paper.authors || [];
+      // Deny-author check: any author matching the deny list → skip.
+      // Uses the same fuzzy name match as the lab pool, so "Ashrafizadeh"
+      // matches both "M. Ashrafizadeh" and "Mehrdad Ashrafizadeh".
+      const hasDeniedAuthor = paperAuthors.some(
+        (a) => a && a.name && denyAuthorList.some((dn) => nameMatches(a.name, dn))
+      );
+      if (hasDeniedAuthor) {
+        denyAuthorFiltered++;
+        return;
+      }
+      const labMatchCount = countLabAuthorOverlap(paperAuthors, labPool);
+      if (labMatchCount < minLabAuthors) {
+        labAuthorFiltered++;
+        if (labAuthorRejected.length < 20) {
+          labAuthorRejected.push({
+            title: paper.title,
+            year: paper.year,
+            venue: paper.venue,
+            matchCount: labMatchCount,
+          });
+        }
+        return;
+      }
+    }
 
     const doiNorm =
       paper.externalIds && paper.externalIds.DOI ? paper.externalIds.DOI.toLowerCase() : null;
@@ -222,6 +344,20 @@ async function fetchPapers() {
   if (manualOverridden) console.log(`  ${manualOverridden} S2 papers skipped (overridden by manual entry).`);
   if (denyFiltered) console.log(`  ${denyFiltered} filtered by denyTitles.`);
   if (yearFiltered) console.log(`  ${yearFiltered} filtered by minYear=${minYear}.`);
+  if (denyAuthorFiltered) console.log(`  ${denyAuthorFiltered} filtered by denyAuthors.`);
+  if (labAuthorFiltered) {
+    console.log(
+      `  ${labAuthorFiltered} filtered by author overlap (need ≥${minLabAuthors} lab authors).`
+    );
+    if (labAuthorRejected.length > 0) {
+      console.log(`    Rejected (showing up to 20):`);
+      labAuthorRejected.forEach((p) =>
+        console.log(
+          `      [${p.matchCount} lab match] ${p.year} | ${(p.venue || '?').slice(0, 30)} | ${(p.title || '').slice(0, 70)}`
+        )
+      );
+    }
+  }
 
   if (dryRun) {
     console.log(`\n[dry-run] Would write ${finalPapers.length} papers to ${JSON_FILE_PATH}.`);
