@@ -35,6 +35,7 @@ those edits interactively, so you don't have to touch JSON by hand.
   - [Set a graphical-abstract image for a paper](#set-a-graphical-abstract-image-for-a-paper)
   - [Map publications to research areas](#map-publications-to-research-areas)
   - [Pick featured publications for the home page](#pick-featured-publications-for-the-home-page)
+  - [Add / edit / delete news entries](#add--edit--delete-news-entries)
 - [Part 4 — Editing things by hand](#part-4--editing-things-by-hand)
 - [Part 5 — Troubleshooting](#part-5--troubleshooting)
 
@@ -472,6 +473,111 @@ add its id to `denyIds` in `featured.config.json`.
 
 **Refresh cadence:** re-run after `npm run pubs:sync` to pick up new
 papers and updated citation counts. Once a quarter is reasonable.
+
+### Add / edit / delete news entries
+
+```
+npm run news:add
+```
+
+Manages `client/src/data/news.json` (the data behind the **News** page and
+the "News & Press" panel on the home page). Every news item has a title,
+date, category, content (one paragraph), optional link, and optional image.
+
+The script supports five different ways to create or edit an entry —
+pick whichever is fastest for the situation:
+
+#### 1. Interactive add (the default)
+
+```
+npm run news:add
+```
+
+Walks through each field. Date defaults to today (you can also type
+`today` or `yesterday`). Category is a menu populated from existing
+categories — `Award`, `Grant`, `Publication`, `Talk`, and `Team` get
+themed badge colors on the page; anything else renders gray.
+
+#### 2. From a publication
+
+```
+npm run news:add -- --from-pub        # pick from a list
+npm run news:add -- --from-pub 8      # use paper id=8 directly
+```
+
+Auto-fills the title (`"New publication in {Journal}"`), the content
+(`"Our latest work, '{title}', has been published in {Journal}.
+Congratulations to ..."` with the first three authors), the link (paper
+DOI), the category (`Publication`), and the date (today). You then
+review and edit anything you want in the preview-confirm step.
+
+This is the fastest way to announce a new paper — usually 5–10 seconds
+of editing the auto-generated content.
+
+#### 3. From a URL
+
+```
+npm run news:add -- --from-url https://news.mcmaster.ca/...
+```
+
+Fetches the page, reads its `og:title` / `og:description` / `og:image`
+meta tags, and uses them to pre-fill the entry. Great for re-announcing
+a McMaster news story or any external press coverage. You'll likely want
+to clean up the auto-pulled content (some sites include "Read more" or
+truncate descriptions).
+
+#### 4. Quick CLI (one-liner, non-interactive)
+
+```
+npm run news:add -- --title "Won the X Award" --category Award \
+  --content "Dr. Soleymani has been awarded ..." \
+  --link "https://example.com/announce"
+```
+
+For when you already know exactly what to write. All flags:
+
+| Flag | Default | Notes |
+|---|---|---|
+| `--title` | required | One-line headline |
+| `--content` | required | One paragraph body |
+| `--category` | `Team` | Pick from `Award` / `Grant` / `Publication` / `Talk` / `Team` for themed colors |
+| `--date` | today | `YYYY-MM-DD` or `today` / `yesterday` |
+| `--link` | empty | Read-more URL |
+| `--image` | empty | URL or local file path (will be copied into `client/public/news/`) |
+
+#### 5. Edit / delete / list existing entries
+
+```
+npm run news:add -- --list             # print every entry
+npm run news:add -- --edit             # pick from list and edit fields
+npm run news:add -- --edit 3           # edit entry id=3 directly
+npm run news:add -- --delete           # pick from list and delete (asks twice)
+npm run news:add -- --delete 3         # delete entry id=3 directly (asks once)
+```
+
+`--edit` reuses the same field-by-field flow as `--add`, with all current
+values pre-filled — press Enter on any prompt to keep the existing value.
+
+`--delete` always asks for confirmation, defaulting to **No**. The full
+news file is backed up to `news.json.bak` before any write, so you can
+always restore if you change your mind.
+
+#### Adding `--dry-run` to any of the above
+
+Shows the preview without writing. Combine with any flag, e.g.:
+
+```
+npm run news:add -- --from-pub 8 --dry-run
+```
+
+#### Image conventions
+
+When you provide a local file path for `--image` (e.g.,
+`~/Downloads/photo.jpg`), the script copies it into
+`client/public/news/` with a date-prefixed slug filename and stores the
+public path (`/news/2026-05-04-photo.jpg`) in `news.json`. URLs are
+stored as-is. Leaving the field blank is fine — entries without an image
+just render as text-only cards.
 
 ---
 

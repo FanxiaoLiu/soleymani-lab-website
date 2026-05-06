@@ -13,7 +13,8 @@
     "pubs:add": "node add_publication.mjs",
     "pubs:image": "node set_pub_image.mjs",
     "research:map": "node map_research_pubs.mjs",
-    "featured:pick": "node pick_featured.mjs"
+    "featured:pick": "node pick_featured.mjs",
+    "news:add": "node add_news.mjs"
   },
   "keywords": [],
   "author": "",
