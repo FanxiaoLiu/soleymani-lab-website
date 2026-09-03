@@ -160,18 +160,6 @@
     "email": "liuf76@mcmaster.ca"
   },
   {
-    "name": "Jiaying (Tina) Liu",
-    "role": "Undergraduate Student",
-    "joined": "Summer 2025",
-    "research_focus": "Biosurfaces",
-    "research_link": "/research",
-    "image": "https://placehold.co/400x500/gray/white?text=Member",
-    "group": "Undergraduate Students",
-    "id": 23,
-    "linkedin": "https://www.linkedin.com/in/jiaying-tina-liu-56bb432b2/",
-    "email": "liu1891@mcmaster.ca"
-  },
-  {
     "name": "Lindsay Kang",
     "role": "Undergraduate Student",
     "joined": "Winter 2026",
@@ -182,6 +170,18 @@
     "id": 24,
     "linkedin": "https://www.linkedin.com/in/lindsay-kang-413183349/",
     "email": "kangl9@mcmaster.ca"
+  },
+  {
+    "name": "Jiaying (Tina) Liu",
+    "role": "Undergraduate Student",
+    "joined": "Summer 2025",
+    "research_focus": "Biosurfaces",
+    "research_link": "/research",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Undergraduate Students",
+    "id": 23,
+    "linkedin": "https://www.linkedin.com/in/jiaying-tina-liu-56bb432b2/",
+    "email": "liu1891@mcmaster.ca"
   },
   {
     "name": "Navid Farkhondehpay",
