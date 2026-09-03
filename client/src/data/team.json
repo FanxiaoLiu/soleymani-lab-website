@@ -112,18 +112,6 @@
     "email": "rathar1@mcmaster.ca"
   },
   {
-    "name": "Mayank Garg",
-    "role": "Post-Doctoral Fellow",
-    "joined": "Winter 2025",
-    "research_focus": "Wearable Biosensing",
-    "research_link": "/research",
-    "image": "https://placehold.co/400x500/gray/white?text=Member",
-    "group": "Post-Doctoral Fellows",
-    "id": 11,
-    "linkedin": "https://www.linkedin.com/in/mayank-garg-b236b76b/",
-    "email": "gargm12@mcmaster.ca"
-  },
-  {
     "name": "Nguyen Duc Cuong Le (Ace Le)",
     "role": "PhD Student",
     "joined": "Fall 2025",
@@ -170,90 +158,6 @@
     "id": 15,
     "linkedin": "https://www.linkedin.com/in/franky-liu-2a78601a4/",
     "email": "liuf76@mcmaster.ca"
-  },
-  {
-    "name": "Wantong Li",
-    "role": "Undergraduate Student",
-    "joined": "Fall 2023",
-    "research_focus": "DNA Biosensing",
-    "research_link": "/research",
-    "image": "https://placehold.co/400x500/gray/white?text=Member",
-    "group": "Undergraduate Students",
-    "id": 16,
-    "linkedin": "https://www.linkedin.com/in/wantong-helen-li/",
-    "email": "liw165@mcmaster.ca"
-  },
-  {
-    "name": "Jasmine Ren",
-    "role": "Undergraduate Student",
-    "joined": "Summer 2025",
-    "research_focus": "Biosensing",
-    "research_link": "/research",
-    "image": "https://placehold.co/400x500/gray/white?text=Member",
-    "group": "Undergraduate Students",
-    "id": 17,
-    "linkedin": "https://www.linkedin.com/in/jasminejiemingren/",
-    "email": "renj56@mcmaster.ca"
-  },
-  {
-    "name": "Mohammed Hasan",
-    "role": "Undergraduate Thesis Student",
-    "joined": "Summer 2025",
-    "research_focus": "Biosensing",
-    "research_link": "/research",
-    "image": "https://res.cloudinary.com/dbp3qdzpj/image/upload/v1769473965/Hasan_uzapsw.jpg",
-    "group": "Undergraduate Students",
-    "id": 18,
-    "linkedin": "https://www.linkedin.com/in/mohammed-hasan-b81100196/",
-    "email": "hasanm40@mcmaster.ca"
-  },
-  {
-    "name": "Shayan Mirmirani",
-    "role": "Undergraduate Thesis Student",
-    "joined": "Fall 2025",
-    "research_focus": "Electrochemistry",
-    "research_link": "/research",
-    "image": "https://placehold.co/400x500/gray/white?text=Member",
-    "group": "Undergraduate Students",
-    "id": 19,
-    "linkedin": "https://www.linkedin.com/in/shayan-mirmirani-43bb00299/",
-    "email": "mirmiras@mcmaster.ca"
-  },
-  {
-    "name": "Rachael Bowman",
-    "role": "Undergraduate Student",
-    "joined": "Fall 2025",
-    "research_focus": "Biosensing",
-    "research_link": "/research",
-    "image": "https://placehold.co/400x500/gray/white?text=Member",
-    "group": "Undergraduate Students",
-    "id": 20,
-    "linkedin": "https://www.linkedin.com/in/rachael-bowman-434869221/",
-    "email": "bowmar9@mcmaster.ca"
-  },
-  {
-    "name": "Mehar Sighat",
-    "role": "Undergraduate Student",
-    "joined": "Fall 2025",
-    "research_focus": "Aptamer Biosensing",
-    "research_link": "/research",
-    "image": "https://placehold.co/400x500/gray/white?text=Member",
-    "group": "Undergraduate Students",
-    "id": 21,
-    "linkedin": "NA",
-    "email": "sighatm@mcmaster.ca"
-  },
-  {
-    "name": "Ali Umar",
-    "role": "Undergraduate Student",
-    "joined": "Fall 2025",
-    "research_focus": "Biosensing",
-    "research_link": "/research",
-    "image": "https://placehold.co/400x500/gray/white?text=Member",
-    "group": "Undergraduate Students",
-    "id": 22,
-    "linkedin": "https://www.linkedin.com/in/ali-umar10/",
-    "email": "umara4@mcmaster.ca"
   },
   {
     "name": "Jiaying (Tina) Liu",
@@ -316,15 +220,27 @@
     "id": 28
   },
   {
-    "name": "Rowan Deckert",
+    "name": "Justin",
+    "role": "Post-Doctoral Fellow",
+    "joined": "Fall 2026",
+    "research_focus": "Materials Chemistry",
+    "research_link": "",
+    "image": "https://placehold.co/400x500/gray/white?text=Member",
+    "group": "Post-Doctoral Fellows",
+    "linkedin": "",
+    "email": "",
+    "id": 30
+  },
+  {
+    "name": "Farhaan Kanji",
     "role": "Laboratory Technician",
-    "joined": "Winter 2026",
-    "research_focus": "Biosensors",
+    "joined": "Fall 2026",
+    "research_focus": "",
     "research_link": "",
     "image": "https://placehold.co/400x500/gray/white?text=Member",
     "group": "Research Staff",
-    "linkedin": "https://ca.linkedin.com/in/rowan-deckert",
+    "linkedin": "",
     "email": "",
-    "id": 29
+    "id": 31
   }
 ]

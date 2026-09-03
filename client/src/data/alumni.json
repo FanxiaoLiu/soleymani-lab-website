@@ -326,5 +326,77 @@
     "current_position": "NA",
     "current_org": "NA",
     "group": "Undergraduate Students"
+  },
+  {
+    "id": 42,
+    "name": "Mayank Garg",
+    "former_role": "Post-Doctoral Fellow (2026)",
+    "current_position": "Post-Doctoral Fellow at Waterloo",
+    "current_org": "Waterloo University",
+    "group": "Post-Doctoral Fellows"
+  },
+  {
+    "id": 43,
+    "name": "Rowan Deckert",
+    "former_role": "Laboratory Technician (2026)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Staff"
+  },
+  {
+    "id": 44,
+    "name": "Jasmine Ren",
+    "former_role": "Undergraduate Student (2026)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Undergraduate Students"
+  },
+  {
+    "id": 45,
+    "name": "Wantong Li",
+    "former_role": "Undergraduate Student (2026)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Undergraduate Students"
+  },
+  {
+    "id": 46,
+    "name": "Mohammed Hasan",
+    "former_role": "Undergraduate Thesis Student (2026)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Undergraduate Students"
+  },
+  {
+    "id": 47,
+    "name": "Shayan Mirmirani",
+    "former_role": "Undergraduate Thesis Student (2026)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Undergraduate Students"
+  },
+  {
+    "id": 48,
+    "name": "Rachael Bowman",
+    "former_role": "Undergraduate Student (2026)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Undergraduate Students"
+  },
+  {
+    "id": 49,
+    "name": "Mehar Sighat",
+    "former_role": "Undergraduate Student (2026)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Undergraduate Students"
+  },
+  {
+    "id": 50,
+    "name": "Ali Umar",
+    "former_role": "Undergraduate Student (2026)",
+    "current_position": "NA",
+    "current_org": "NA",
+    "group": "Undergraduate Students"
   }
 ]
